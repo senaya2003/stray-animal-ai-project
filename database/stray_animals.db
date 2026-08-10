@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Which House Are You?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold: #D9B24C;
+    --gray: #8A8F9E;
+    --gray-track: #363B47;
+    --white: #F5F6FA;
+    --blue: #5468FF;
+
+    --gryf: #D8532E;   --gryf-dark: #7A2B18;
+    --raven: #3E6FB0;  --raven-dark: #1E3A5F;
+    --huff: #E3A93B;   --huff-dark: #7A5A16;
+    --slyth: #1E7A5F;  --slyth-dark: #0F4030;
+  }
+
+  *{ box-sizing: border-box; }
+
+  body{
+    margin:0;
+    min-height:100vh;
+    font-family:'Inter', sans-serif;
+    color: var(--white);
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -5%, rgba(120,130,160,0.35), transparent 60%),
+      radial-gradient(ellipse 600px 400px at 60% 5%, rgba(90,100,130,0.18), transparent 65%),
+      #0A0C13;
+    display:flex;
+    justify-content:center;
+    padding: 30px 16px 50px;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .stars{
+    position: fixed; inset: 0;
+    background-image:
+      radial-gradient(1.5px 1.5px at 20% 30%, rgba(255,255,255,0.5), transparent),
+      radial-gradient(1px 1px at 70% 15%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1.5px 1.5px at 40% 60%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1px 1px at 85% 45%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1.5px 1.5px at 10% 75%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1px 1px at 55% 85%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1.5px 1.5px at 90% 80%, rgba(255,255,255,0.25), transparent),
+      radial-gradient(1px 1px at 30% 10%, rgba(255,255,255,0.3), transparent);
+    pointer-events: none;
+  }
+
+  .app{ width:100%; max-width: 420px; position: relative; z-index: 1; }
+
+  header{ text-align:center; padding: 10px 0 22px; }
+  .eyebrow{
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0;
+  }
+
+  .hat-wrap{
+    width: 128px; height: 128px;
+    margin: 10px auto 4px;
+    position: relative;
+  }
+  .hat-glow{
+    position:absolute; inset: -30px;
+    background: radial-gradient(circle, rgba(217,178,76,0.4), transparent 70%);
+    border-radius: 50%;
+    animation: pulseGlow 3.2s ease-in-out infinite;
+  }
+  @keyframes pulseGlow{
+    0%,100%{ opacity: 0.7; transform: scale(1); }
+    50%{ opacity: 1; transform: scale(1.08); }
+  }
+  .hat-ray{
+    position:absolute;
+    top:50%; left:50%;
+    width: 2px; height: 46px;
+    background: linear-gradient(to top, transparent, rgba(217,178,76,0.55));
+    transform-origin: 50% 0;
+    margin-top: -4px; margin-left: -1px;
+  }
+  .hat-shard{
+    position:absolute;
+    width: 5px; height: 5px;
+    background: #D9B24C;
+    opacity: 0.7;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  }
+  .hat-wrap svg{ position:relative; width:100%; height:100%; z-index: 1; }
+
+  h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 4px 0 8px;
+    color: var(--white);
+  }
+  .sub{ font-size: 13.5px; color: var(--gray); margin:0; }
+
+  .quiz-box{
+    border: 1.5px solid var(--gold);
+    border-radius: 14px;
+    padding: 24px 20px 8px;
+    background: rgba(255,255,255,0.015);
+  }
+
+  .trait{ margin-bottom: 24px; }
+  .trait-top{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .icon{ width: 26px; height: 30px; flex-shrink: 0; }
+  .icon svg{ width:100%; height:100%; }
+  .trait-name{
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14.5px;
+    color: var(--white);
+    flex: 1;
+  }
+  .trait-value{
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--gray);
+    min-width: 20px;
+    text-align: right;
+  }
+
+  input[type="range"]{
+    -webkit-appearance:none;
+    appearance:none;
+    width:100%;
+    height: 3px;
+    border-radius: 4px;
+    outline:none;
+    background: var(--gray-track);
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--gray);
+    border: none;
+    box-shadow: 0 0 0 4px rgba(138,143,158,0.18);
+    cursor:pointer;
+  }
+  input[type="range"]::-moz-range-thumb{
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--gray);
+    border: none;
+    box-shadow: 0 0 0 4px rgba(138,143,158,0.18);
+    cursor:pointer;
+  }
+
+  .cta-wrap{ display:flex; justify-content:center; margin: 26px 0 8px; }
+  .cta{
+    border: none;
+    padding: 11px 34px;
+    border-radius: 999px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--blue);
+    box-shadow: 0 6px 16px rgba(84,104,255,0.35);
+    cursor: pointer;
+  }
+  .cta:active{ transform: translateY(1px); }
+
+  /* ---------- Overlay + result ---------- */
+  .overlay{
+    position: fixed; inset: 0;
+    background: rgba(6,7,12,0.85);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding: 24px;
+    z-index: 50;
+    transition: background 0.5s ease;
+  }
+  .overlay.show{ display:flex; }
+
+  .confetti-piece{
+    position: fixed;
+    top: -12px;
+    width: 8px; height: 8px;
+    opacity: 0.95;
+    animation: fall linear forwards;
+    z-index: 60;
+    pointer-events: none;
+  }
+  @keyframes fall{
+    to{ transform: translateY(105vh) rotate(400deg); opacity: 0.15; }
+  }
+
+  .result-box{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    border: 1.5px solid var(--gold);
+    border-radius: 14px;
+    padding: 30px 22px 24px;
+    text-align: center;
+    background: #0A0C13;
+    animation: pop .4s cubic-bezier(.5,1.6,.4,1);
+    overflow: hidden;
+  }
+  @keyframes pop{
+    0%{ transform: scale(0.85); opacity:0; }
+    100%{ transform: scale(1); opacity:1; }
+  }
+
+  .flag{
+    width: 88px; height: 130px;
+    margin: 0 auto 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    position: relative;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+  }
+  .flag-crest{
+    position:absolute; top: 14px; left:50%; transform: translateX(-50%);
+    width: 44px; height: 50px;
+  }
+  .flag-crest svg{ width:100%; height:100%; }
+
+  .result-eyebrow{
+    font-family:'Poppins', sans-serif;
+    font-size: 11px;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    font-weight:600;
+    color: var(--gray);
+    margin: 4px 0 0;
+  }
+  .result-name{
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight:700;
+    color: var(--white);
+    margin: 4px 0 0;
+  }
+  .result-tagline{
+    font-size: 13px;
+    color: var(--gray);
+    margin: 10px 0 20px;
+    line-height: 1.5;
+  }
+
+  .again-btn{
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent;
+    color: var(--white);
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 11px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <div class="app">
+    <header>
+      <p class="eyebrow">The Sorting Ceremony</p>
+
+      <div class="hat-wrap" id="hatWrap">
+        <div class="hat-glow"></div>
+        <svg viewBox="0 0 100 100" fill="none">
+          <!-- twisted, floppy wizard hat -->
+          <path d="M52 6 C48 14 56 20 51 27 C58 24 62 32 56 38 C64 36 68 44 61 50 L40 52 C36 44 42 38 48 39 C41 34 46 27 42 23 C48 19 44 12 52 6Z"
+                fill="#4E515C" stroke="#D9B24C" stroke-width="1.1"/>
+          <path d="M38 51 C46 47 60 47 62 51 C66 53 66 58 60 60 C50 63 40 61 36 58 C33 56 34 52 38 51Z"
+                fill="#3F424C" stroke="#D9B24C" stroke-width="1.1"/>
+          <path d="M16 66 C32 58 70 58 86 66 C88 70 86 74 80 75 C64 80 38 80 22 75 C16 74 14 70 16 66Z"
+                fill="#454852" stroke="#D9B24C" stroke-width="1.2"/>
+          <path d="M22 68 C40 63 64 63 80 68" stroke="#D9B24C" stroke-width="0.8" opacity="0.5"/>
+          <path d="M43 30 C46 32 48 36 47 40 M55 42 C58 44 59 47 58 50" stroke="#D9B24C" stroke-width="0.8" opacity="0.5"/>
+          <g stroke="#D9B24C" stroke-width="1" opacity="0.85">
+            <path d="M12 20 L16 24 M12 24 L16 20"/>
+            <path d="M84 16 L89 20 M84 20 L89 16"/>
+            <path d="M8 44 L13 44 M10.5 41.5 L10.5 46.5"/>
+            <path d="M90 40 L95 40 M92.5 37.5 L92.5 42.5"/>
+            <circle cx="26" cy="10" r="1.3" fill="#D9B24C" stroke="none"/>
+            <circle cx="74" cy="8" r="1" fill="#D9B24C" stroke="none"/>
+            <circle cx="8" cy="58" r="1" fill="#D9B24C" stroke="none"/>
+            <circle cx="92" cy="56" r="1.2" fill="#D9B24C" stroke="none"/>
+          </g>
+        </svg>
+      </div>
+
+      <h1>Which House Are You?</h1>
+      <p class="sub">Rate yourself honestly to find out</p>
+    </header>
+
+    <div class="quiz-box">
+      <div class="trait">
+        <div class="trait-top">
+          <span class="icon" id="icon-bravery"></span>
+          <span class="trait-name">Bravery</span>
+          <span class="trait-value" id="val-bravery">5</span>
+        </div>
+        <input type="range" min="1" max="10" value="5" id="bravery" />
+      </div>
+
+      <div class="trait">
+        <div class="trait-top">
+          <span class="icon" id="icon-intelligence"></span>
+          <span class="trait-name">Intelligence</span>
+          <span class="trait-value" id="val-intelligence">5</span>
+        </div>
+        <input type="range" min="1" max="10" value="5" id="intelligence" />
+      </div>
+
+      <div class="trait">
+        <div class="trait-top">
+          <span class="icon" id="icon-loyalty"></span>
+          <span class="trait-name">Loyalty</span>
+          <span class="trait-value" id="val-loyalty">5</span>
+        </div>
+        <input type="range" min="1" max="10" value="5" id="loyalty" />
+      </div>
+
+      <div class="trait">
+        <div class="trait-top">
+          <span class="icon" id="icon-ambition"></span>
+          <span class="trait-name">Ambition</span>
+          <span class="trait-value" id="val-ambition">5</span>
+        </div>
+        <input type="range" min="1" max="10" value="5" id="ambition" />
+      </div>
+
+      <div class="trait">
+        <div class="trait-top">
+          <span class="icon" id="icon-creativity">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#D9B24C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3.5 13.8 9.2 19.5 11 13.8 12.8 12 18.5 10.2 12.8 4.5 11 10.2 9.2 12 3.5Z"/>
+            </svg>
+          </span>
+          <span class="trait-name">Creativity</span>
+          <span class="trait-value" id="val-creativity">5</span>
+        </div>
+        <input type="range" min="1" max="10" value="5" id="creativity" />
+      </div>
+
+      <div class="cta-wrap">
+        <button class="cta" id="sortBtn">Sort Me</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Result popup -->
+  <div class="overlay" id="overlay">
+    <div class="result-box" id="resultBox">
+      <div class="flag" id="flag">
+        <div class="flag-crest" id="resultCrest"></div>
+      </div>
+      <p class="result-eyebrow">You Belong To</p>
+      <h2 class="result-name" id="resultName">Gryffindor</h2>
+      <p class="result-tagline" id="resultTagline">Daring, nerve, and chivalry set you apart.</p>
+      <button class="again-btn" id="againBtn">Sort Me Again</button>
+    </div>
+  </div>
+
+<script>
+  // Front-end UI logic only (slider display + which house wins).
+  // Swap the scoring below for your real trained model's predictions later.
+  // Shield icons below are original artwork inspired by the house-color/animal
+  // motif, not traced copies of any copyrighted crest artwork.
+
+  const traits = ["bravery","intelligence","loyalty","ambition","creativity"];
+
+  function shieldSvg({ base, dark, animal }){
+    return `
+    <svg viewBox="0 0 40 46" fill="none">
+      <defs>
+        <linearGradient id="g-${dark.replace('#','')}" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="${base}"/>
+          <stop offset="1" stop-color="${dark}"/>
+        </linearGradient>
+      </defs>
+      <path d="M20 2.5 C26 5 31.5 6.5 36 7.5 V21 C36 31.5 29.5 39.5 20 44 C10.5 39.5 4 31.5 4 21 V7.5 C8.5 6.5 14 5 20 2.5Z"
+            fill="url(#g-${dark.replace('#','')})" stroke="${dark}" stroke-width="1.3"/>
+      <path d="M20 4.5 C25.3 6.7 30 8 34 8.9 V21 C34 30.5 28.2 37.6 20 41.8 C11.8 37.6 6 30.5 6 21 V8.9 C10 8 14.7 6.7 20 4.5Z"
+            fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+      ${animal}
+    </svg>`;
+  }
+
+  const animals = {
+    lion: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="20" cy="20" r="7"/>
+      <path d="M20 8c-2 2-2 4 0 6M20 32c-2-2-2-4 0-6M8 20c2-2 4-2 6 0M32 20c-2-2-4-2-6 0M12 12c1.6.6 2.6 1.8 3 3.4M28 12c-1.6.6-2.6 1.8-3 3.4M12 28c1.6-.6 2.6-1.8 3-3.4M28 28c-1.6-.6-2.6-1.8-3-3.4"/>
+      <circle cx="17.4" cy="18.6" r="0.9" fill="#fff"/><circle cx="22.6" cy="18.6" r="0.9" fill="#fff"/>
+    </g>`,
+    eagle: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 12c-6 2-11 5-16 4.2 2.5 3.4 6 4.6 9.6 4.4L20 25l6.4-4.4c3.6.2 7.1-1 9.6-4.4-5 .8-10-2.2-16-4.2Z"/>
+      <path d="M20 25v6.5"/>
+      <path d="M16.5 34 20 30l3.5 4"/>
+    </g>`,
+    badger: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="20" cy="21" rx="8.5" ry="9.5"/>
+      <path d="M15 14c-1-2.6-.5-5.4 1.2-7.6M25 14c1-2.6.5-5.4-1.2-7.6"/>
+      <path d="M16 19v8M20 19v8M24 19v8"/>
+    </g>`,
+    snake: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M13 12c3 0 3 4 6 4s3-4 6-4 3 4 0 6-6 0-9 2-3 4 0 6 6 0 9-2"/>
+      <path d="M27 27 30 26 28.5 29"/>
+    </g>`,
+  };
+
+  const houses = {
+    bravery:      { name: "Gryffindor", base: "#D8532E", dark: "#7A2B18", animal: animals.lion,   tagline: "Daring, nerve, and chivalry set you apart." },
+    intelligence: { name: "Ravenclaw",  base: "#3E6FB0", dark: "#1E3A5F", animal: animals.eagle,  tagline: "Wit beyond measure is your greatest treasure." },
+    loyalty:      { name: "Hufflepuff", base: "#E3A93B", dark: "#7A5A16", animal: animals.badger, tagline: "You are true, and unafraid of toil." },
+    ambition:     { name: "Slytherin",  base: "#1E7A5F", dark: "#0F4030", animal: animals.snake,  tagline: "Your cunning will help you achieve real greatness." },
+  };
+
+  // place small shield icons beside each slider
+  Object.keys(houses).forEach(key=>{
+    const h = houses[key];
+    document.getElementById("icon-"+key).innerHTML = shieldSvg(h);
+  });
+
+  // build sparkle rays + shards around the hat
+  (function buildHatBurst(){
+    const wrap = document.getElementById("hatWrap");
+    const rayCount = 10;
+    for(let i=0;i<rayCount;i++){
+      const ray = document.createElement("div");
+      ray.className = "hat-ray";
+      ray.style.transform = `rotate(${(360/rayCount)*i}deg)`;
+      wrap.appendChild(ray);
+    }
+    const shardCount = 7;
+    for(let i=0;i<shardCount;i++){
+      const shard = document.createElement("div");
+      shard.className = "hat-shard";
+      const angle = Math.random()*360;
+      const dist = 44 + Math.random()*16;
+      const rad = angle * Math.PI/180;
+      shard.style.left = `calc(50% + ${Math.cos(rad)*dist}px)`;
+      shard.style.top = `calc(50% + ${Math.sin(rad)*dist}px)`;
+      shard.style.transform = `rotate(${Math.random()*360}deg)`;
+      wrap.appendChild(shard);
+    }
+  })();
+
+  function launchConfetti(colors){
+    for(let i=0;i<40;i++){
+      const piece = document.createElement("div");
+      piece.className = "confetti-piece";
+      piece.style.left = Math.random()*100 + "%";
+      piece.style.background = colors[i % colors.length];
+      piece.style.width = piece.style.height = (5 + Math.random()*4) + "px";
+      piece.style.borderRadius = Math.random() > 0.5 ? "50%" : "2px";
+      piece.style.animationDuration = (1.8 + Math.random()*1.4) + "s";
+      piece.style.animationDelay = (Math.random()*0.5) + "s";
+      document.body.appendChild(piece);
+      setTimeout(()=> piece.remove(), 3600);
+    }
+  }
+
+  traits.forEach(t=>{
+    const input = document.getElementById(t);
+    const label = document.getElementById("val-"+t);
+    input.addEventListener("input", ()=> label.textContent = input.value);
+  });
+
+  function getValues(){
+    const v = {};
+    traits.forEach(t => v[t] = Number(document.getElementById(t).value));
+    return v;
+  }
+
+  function predictWinner(){
+    const v = getValues();
+    const raw = {
+      bravery: v.bravery,
+      intelligence: v.intelligence + v.creativity * 0.5,
+      loyalty: v.loyalty,
+      ambition: v.ambition + v.creativity * 0.3,
+    };
+    return Object.entries(raw).sort((a,b)=>b[1]-a[1])[0][0];
+  }
+
+  function reveal(){
+    const winnerKey = predictWinner();
+    const h = houses[winnerKey];
+
+    document.getElementById("resultCrest").innerHTML = shieldSvg(h);
+    document.getElementById("resultName").textContent = h.name;
+    document.getElementById("resultTagline").textContent = h.tagline;
+
+    // checkered flag background in house colors
+    document.getElementById("flag").style.background =
+      `repeating-conic-gradient(${h.base} 0% 25%, ${h.dark} 0% 50%) 0 0 / 22px 22px`;
+
+    // tint the whole overlay backdrop with a faint house-colored checker too
+    const overlay = document.getElementById("overlay");
+    overlay.style.background =
+      `repeating-conic-gradient(${h.base}22 0% 25%, ${h.dark}33 0% 50%) 0 0 / 40px 40px, rgba(6,7,12,0.86)`;
+    overlay.classList.add("show");
+
+    launchConfetti([h.base, h.dark, "#D9B24C"]);
+  }
+
+  document.getElementById("sortBtn").addEventListener("click", reveal);
+  document.getElementById("againBtn").addEventListener("click", ()=>{
+    document.getElementById("overlay").classList.remove("show");
+  });
+  document.getElementById("overlay").addEventListener("click", (e)=>{
+    if(e.target.id === "overlay") document.getElementById("overlay").classList.remove("show");
+  });
+
+  
+
+
+  (() => {
+      const traits = ["bravery", "intelligence", "loyalty", "ambition", "creativity"];
+
+      function shieldSvg({ base, dark, animal }){
+        return `
+        <svg viewBox="0 0 40 46" fill="none">
+          <defs>
+            <linearGradient id="g-${dark.replace('#','')}" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="${base}"/>
+              <stop offset="1" stop-color="${dark}"/>
+            </linearGradient>
+          </defs>
+          <path d="M20 2.5 C26 5 31.5 6.5 36 7.5 V21 C36 31.5 29.5 39.5 20 44 C10.5 39.5 4 31.5 4 21 V7.5 C8.5 6.5 14 5 20 2.5Z"
+                fill="url(#g-${dark.replace('#','')})" stroke="${dark}" stroke-width="1.3"/>
+          <path d="M20 4.5 C25.3 6.7 30 8 34 8.9 V21 C34 30.5 28.2 37.6 20 41.8 C11.8 37.6 6 30.5 6 21 V8.9 C10 8 14.7 6.7 20 4.5Z"
+                fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+          ${animal}
+        </svg>`;
+      }
+
+      const animals = {
+        lion: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="20" cy="20" r="7"/>
+          <path d="M20 8c-2 2-2 4 0 6M20 32c-2-2-2-4 0-6M8 20c2-2 4-2 6 0M32 20c-2-2-4-2-6 0M12 12c1.6.6 2.6 1.8 3 3.4M28 12c-1.6.6-2.6 1.8-3 3.4M12 28c1.6-.6 2.6-1.8 3-3.4M28 28c-1.6-.6-2.6-1.8-3-3.4"/>
+          <circle cx="17.4" cy="18.6" r="0.9" fill="#fff"/><circle cx="22.6" cy="18.6" r="0.9" fill="#fff"/>
+        </g>`,
+        eagle: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 12c-6 2-11 5-16 4.2 2.5 3.4 6 4.6 9.6 4.4L20 25l6.4-4.4c3.6.2 7.1-1 9.6-4.4-5 .8-10-2.2-16-4.2Z"/>
+          <path d="M20 25v6.5"/>
+          <path d="M16.5 34 20 30l3.5 4"/>
+        </g>`,
+        badger: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="20" cy="21" rx="8.5" ry="9.5"/>
+          <path d="M15 14c-1-2.6-.5-5.4 1.2-7.6M25 14c1-2.6.5-5.4-1.2-7.6"/>
+          <path d="M16 19v8M20 19v8M24 19v8"/>
+        </g>`,
+        snake: `<g stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 12c3 0 3 4 6 4s3-4 6-4 3 4 0 6-6 0-9 2-3 4 0 6 6 0 9-2"/>
+          <path d="M27 27 30 26 28.5 29"/>
+        </g>`,
+      };
+
+      const houses = {
+        Gryffindor: { name: "Gryffindor", base: "#D8532E", dark: "#7A2B18", animal: animals.lion,   tagline: "Daring, nerve, and chivalry set you apart." },
+        Ravenclaw:  { name: "Ravenclaw",  base: "#3E6FB0", dark: "#1E3A5F", animal: animals.eagle,  tagline: "Wit beyond measure is your greatest treasure." },
+        Hufflepuff: { name: "Hufflepuff", base: "#E3A93B", dark: "#7A5A16", animal: animals.badger, tagline: "You are true, and unafraid of toil." },
+        Slytherin:  { name: "Slytherin",  base: "#1E7A5F", dark: "#0F4030", animal: animals.snake,  tagline: "Your cunning will help you achieve real greatness." },
+      };
+
+      // Set initial side icons
+      const traitHouseMap = { bravery: houses.Gryffindor, intelligence: houses.Ravenclaw, loyalty: houses.Hufflepuff, ambition: houses.Slytherin };
+      Object.keys(traitHouseMap).forEach(key => {
+        document.getElementById("icon-" + key).innerHTML = shieldSvg(traitHouseMap[key]);
+      });
+
+      function launchConfetti(colors){
+        for(let i=0; i<40; i++){
+          const piece = document.createElement("div");
+          piece.className = "confetti-piece";
+          piece.style.left = Math.random()*100 + "%";
+          piece.style.background = colors[i % colors.length];
+          piece.style.width = piece.style.height = (5 + Math.random()*4) + "px";
+          piece.style.borderRadius = Math.random() > 0.5 ? "50%" : "2px";
+          piece.style.animationDuration = (1.8 + Math.random()*1.4) + "s";
+          piece.style.animationDelay = (Math.random()*0.5) + "s";
+          document.body.appendChild(piece);
+          setTimeout(()=> piece.remove(), 3600);
+        }
+      }
+
+      // Update numerical labels on slider input
+      traits.forEach(t => {
+        const input = document.getElementById(t);
+        const label = document.getElementById("val-" + t);
+        input.addEventListener("input", () => label.textContent = input.value);
+      });
+
+      // API call to predict house
+      async function reveal() {
+        const sortBtn = document.getElementById("sortBtn");
+        sortBtn.textContent = "Sorting...";
+        sortBtn.disabled = true;
+
+        const traitValues = {
+          bravery: Number(document.getElementById("bravery").value),
+          intelligence: Number(document.getElementById("intelligence").value),
+          loyalty: Number(document.getElementById("loyalty").value),
+          ambition: Number(document.getElementById("ambition").value),
+          creativity: Number(document.getElementById("creativity").value)
+        };
+
+        try {
+          const response = await fetch("http://127.0.0.1:8000/predict", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(traitValues)
+          });
+
+          if (!response.ok) throw new Error("Server error");
+
+          const data = await response.json();
+          const predictedHouse = data.house; // e.g., "Gryffindor"
+
+          const h = houses[predictedHouse];
+          document.getElementById("resultCrest").innerHTML = shieldSvg(h);
+          document.getElementById("resultName").textContent = h.name;
+          document.getElementById("resultTagline").textContent = h.tagline;
+
+          document.getElementById("flag").style.background =
+            `repeating-conic-gradient(${h.base} 0% 25%, ${h.dark} 0% 50%) 0 0 / 22px 22px`;
+
+          const overlay = document.getElementById("overlay");
+          overlay.style.background =
+            `repeating-conic-gradient(${h.base}22 0% 25%, ${h.dark}33 0% 50%) 0 0 / 40px 40px, rgba(6,7,12,0.86)`;
+          overlay.classList.add("show");
+
+          launchConfetti([h.base, h.dark, "#D9B24C"]);
+
+        } catch (error) {
+          console.error("Error talking to backend:", error);
+          alert("Make sure main.py is running in your terminal!");
+        } finally {
+          sortBtn.textContent = "Sort Me";
+          sortBtn.disabled = false;
+        }
+      }
+
+      document.getElementById("sortBtn").addEventListener("click", reveal);
+      document.getElementById("againBtn").addEventListener("click", () => {
+        document.getElementById("overlay").classList.remove("show");
+      });
+      document.getElementById("overlay").addEventListener("click", (e) => {
+        if(e.target.id === "overlay") document.getElementById("overlay").classList.remove("show");
+      });
+    })();
+    
+</script>
+
+</body>
+</html>

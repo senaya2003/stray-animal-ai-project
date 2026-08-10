@@ -1,0 +1,1001 @@
+Report_ID,Animal_Type,Breed,Age,Gender,Health_Status,Location,Reported_Date,Rescue_Status
+1,Dog,Beagle,5,Male,Healthy,Negombo,2026-01-13,Rescued
+2,Dog,Labrador,15,Female,Healthy,Galle,2026-01-28,Rescued
+3,Cat,Domestic Short Hair,5,Male,Healthy,Colombo,2026-05-22,Rescued
+4,Dog,Golden Retriever,1,Male,Critical,Jaffna,2026-04-29,Released
+5,Dog,Beagle,5,Male,Sick,Colombo,2026-01-27,Under Treatment
+6,Dog,German Shepherd,6,Male,Sick,Batticaloa,2026-04-11,Released
+7,Cat,Siamese,9,Female,Sick,Matara,2026-03-22,Under Treatment
+8,Cat,Persian,6,Male,Sick,Kurunegala,2026-06-14,Rescued
+9,Cat,Siamese,9,Female,Sick,Anuradhapura,2026-06-21,Rescued
+10,Cat,British Shorthair,11,Male,Injured,Jaffna,2026-04-30,Pending
+11,Dog,Golden Retriever,15,Female,Critical,Kandy,2026-03-26,Released
+12,Cat,Mixed Breed,11,Male,Injured,Colombo,2026-04-08,Rescued
+13,Cat,Mixed Breed,4,Male,Healthy,Colombo,2026-04-05,Under Treatment
+14,Dog,Rottweiler,14,Male,Sick,Kurunegala,2026-01-13,Under Treatment
+15,Dog,Beagle,6,Male,Critical,Kurunegala,2026-02-24,Released
+16,Dog,Golden Retriever,15,Female,Injured,Colombo,2026-01-19,Released
+17,Dog,Mixed Breed,1,Female,Injured,Kurunegala,2026-01-15,Pending
+18,Dog,Husky,3,Female,Sick,Colombo,2026-05-11,Under Treatment
+19,Cat,Domestic Short Hair,10,Female,Critical,Anuradhapura,2026-06-06,Rescued
+20,Dog,German Shepherd,14,Male,Sick,Jaffna,2026-03-11,Under Treatment
+21,Dog,Mixed Breed,9,Female,Healthy,Kandy,2026-04-01,Pending
+22,Dog,Labrador,10,Male,Sick,Kandy,2026-05-15,Released
+23,Cat,British Shorthair,15,Male,Healthy,Negombo,2026-03-04,Released
+24,Cat,Siamese,8,Male,Sick,Ratnapura,2026-03-21,Pending
+25,Cat,Siamese,2,Male,Sick,Galle,2026-01-10,Rescued
+26,Cat,British Shorthair,8,Male,Sick,Kurunegala,2026-05-01,Rescued
+27,Cat,Persian,11,Male,Healthy,Anuradhapura,2026-05-26,Pending
+28,Cat,Persian,1,Male,Sick,Anuradhapura,2026-03-08,Pending
+29,Dog,Golden Retriever,7,Female,Injured,Colombo,2026-05-17,Released
+30,Dog,Husky,4,Male,Sick,Matara,2026-01-05,Released
+31,Cat,Domestic Short Hair,12,Female,Healthy,Ratnapura,2026-05-17,Released
+32,Cat,British Shorthair,8,Female,Sick,Matara,2026-01-06,Released
+33,Dog,Labrador,12,Male,Critical,Batticaloa,2026-04-17,Rescued
+34,Dog,Beagle,10,Male,Sick,Ratnapura,2026-05-07,Rescued
+35,Dog,Mixed Breed,5,Male,Injured,Colombo,2026-04-11,Pending
+36,Cat,Mixed Breed,2,Male,Critical,Kandy,2026-01-28,Rescued
+37,Cat,Domestic Short Hair,15,Female,Injured,Negombo,2026-03-23,Under Treatment
+38,Cat,Siamese,4,Female,Injured,Anuradhapura,2026-02-19,Released
+39,Cat,Mixed Breed,6,Male,Sick,Ratnapura,2026-06-18,Released
+40,Dog,Rottweiler,2,Female,Injured,Batticaloa,2026-04-08,Released
+41,Dog,Husky,13,Male,Injured,Jaffna,2026-03-16,Under Treatment
+42,Cat,Persian,11,Male,Healthy,Ratnapura,2026-01-17,Pending
+43,Cat,Domestic Short Hair,8,Female,Critical,Kandy,2026-06-27,Released
+44,Cat,Domestic Short Hair,6,Male,Injured,Batticaloa,2026-05-15,Released
+45,Dog,Labrador,1,Male,Injured,Batticaloa,2026-05-11,Released
+46,Dog,German Shepherd,9,Male,Healthy,Batticaloa,2026-02-26,Rescued
+47,Dog,Beagle,1,Female,Critical,Colombo,2026-06-01,Under Treatment
+48,Dog,Husky,2,Female,Injured,Galle,2026-02-03,Rescued
+49,Cat,British Shorthair,9,Female,Healthy,Batticaloa,2026-06-13,Pending
+50,Cat,Domestic Short Hair,15,Female,Injured,Anuradhapura,2026-01-05,Under Treatment
+51,Dog,Golden Retriever,5,Male,Sick,Jaffna,2026-05-23,Pending
+52,Dog,Husky,5,Female,Injured,Galle,2026-01-08,Rescued
+53,Dog,German Shepherd,13,Female,Critical,Kandy,2026-05-05,Pending
+54,Cat,British Shorthair,8,Female,Critical,Galle,2026-03-30,Under Treatment
+55,Cat,Persian,15,Male,Healthy,Anuradhapura,2026-03-01,Under Treatment
+56,Dog,German Shepherd,5,Female,Sick,Kurunegala,2026-05-31,Released
+57,Cat,Siamese,9,Female,Critical,Colombo,2026-06-24,Under Treatment
+58,Cat,Persian,15,Male,Injured,Colombo,2026-01-04,Rescued
+59,Dog,Rottweiler,13,Female,Sick,Anuradhapura,2026-03-04,Pending
+60,Cat,Mixed Breed,15,Female,Healthy,Galle,2026-06-14,Pending
+61,Cat,Mixed Breed,3,Male,Healthy,Negombo,2026-04-07,Rescued
+62,Cat,British Shorthair,13,Male,Healthy,Galle,2026-02-08,Rescued
+63,Cat,Domestic Short Hair,14,Male,Critical,Kandy,2026-03-28,Pending
+64,Dog,Mixed Breed,2,Female,Healthy,Negombo,2026-06-02,Rescued
+65,Cat,Mixed Breed,8,Female,Critical,Kurunegala,2026-06-27,Released
+66,Cat,British Shorthair,7,Female,Critical,Galle,2026-04-06,Rescued
+67,Dog,Mixed Breed,11,Male,Sick,Kandy,2026-01-29,Under Treatment
+68,Dog,German Shepherd,3,Female,Sick,Ratnapura,2026-03-11,Rescued
+69,Cat,Persian,9,Male,Sick,Anuradhapura,2026-05-07,Rescued
+70,Dog,Labrador,5,Female,Injured,Ratnapura,2026-05-29,Released
+71,Dog,Golden Retriever,14,Male,Injured,Matara,2026-04-29,Rescued
+72,Dog,Mixed Breed,6,Female,Injured,Anuradhapura,2026-01-25,Under Treatment
+73,Dog,Rottweiler,12,Female,Sick,Matara,2026-01-31,Released
+74,Cat,Persian,3,Female,Injured,Matara,2026-04-13,Rescued
+75,Cat,Siamese,10,Male,Critical,Galle,2026-06-08,Pending
+76,Dog,Rottweiler,7,Female,Healthy,Batticaloa,2026-05-17,Released
+77,Dog,Labrador,4,Female,Critical,Ratnapura,2026-03-10,Under Treatment
+78,Cat,British Shorthair,3,Female,Critical,Galle,2026-01-08,Under Treatment
+79,Cat,Mixed Breed,5,Female,Critical,Kurunegala,2026-04-14,Pending
+80,Cat,Mixed Breed,7,Male,Healthy,Jaffna,2026-04-09,Under Treatment
+81,Dog,Husky,7,Male,Healthy,Kurunegala,2026-02-02,Rescued
+82,Cat,Persian,6,Male,Healthy,Galle,2026-06-20,Released
+83,Dog,Beagle,7,Female,Injured,Batticaloa,2026-01-08,Released
+84,Dog,Beagle,14,Female,Healthy,Anuradhapura,2026-06-01,Pending
+85,Cat,Persian,10,Female,Critical,Batticaloa,2026-01-31,Under Treatment
+86,Cat,Domestic Short Hair,15,Female,Critical,Anuradhapura,2026-01-12,Pending
+87,Dog,German Shepherd,10,Male,Critical,Colombo,2026-04-16,Pending
+88,Dog,Husky,11,Male,Injured,Anuradhapura,2026-02-27,Rescued
+89,Cat,Domestic Short Hair,4,Female,Injured,Kandy,2026-03-22,Rescued
+90,Dog,Labrador,9,Male,Injured,Kandy,2026-03-25,Released
+91,Cat,Domestic Short Hair,10,Male,Sick,Kurunegala,2026-03-23,Pending
+92,Cat,Mixed Breed,15,Female,Healthy,Colombo,2026-05-21,Under Treatment
+93,Cat,British Shorthair,11,Female,Healthy,Negombo,2026-05-15,Released
+94,Dog,German Shepherd,1,Male,Injured,Kurunegala,2026-04-17,Pending
+95,Dog,Golden Retriever,12,Male,Sick,Matara,2026-02-17,Rescued
+96,Cat,Mixed Breed,3,Female,Sick,Galle,2026-02-08,Released
+97,Dog,Rottweiler,12,Female,Healthy,Galle,2026-01-31,Rescued
+98,Cat,Siamese,1,Female,Sick,Batticaloa,2026-06-09,Released
+99,Dog,German Shepherd,5,Male,Critical,Colombo,2026-01-10,Pending
+100,Cat,Domestic Short Hair,10,Female,Sick,Colombo,2026-02-18,Under Treatment
+101,Dog,Labrador,7,Female,Injured,Jaffna,2026-02-05,Released
+102,Cat,Mixed Breed,12,Male,Sick,Negombo,2026-02-20,Under Treatment
+103,Cat,Mixed Breed,2,Female,Injured,Matara,2026-02-10,Under Treatment
+104,Dog,Labrador,7,Female,Sick,Colombo,2026-02-07,Pending
+105,Cat,Mixed Breed,3,Male,Injured,Anuradhapura,2026-01-07,Pending
+106,Dog,Golden Retriever,7,Female,Critical,Anuradhapura,2026-02-15,Under Treatment
+107,Dog,German Shepherd,7,Male,Healthy,Negombo,2026-04-17,Under Treatment
+108,Cat,Domestic Short Hair,11,Female,Sick,Batticaloa,2026-02-06,Under Treatment
+109,Cat,Mixed Breed,11,Female,Healthy,Anuradhapura,2026-06-14,Pending
+110,Dog,Rottweiler,2,Male,Healthy,Jaffna,2026-03-24,Pending
+111,Dog,Rottweiler,2,Female,Injured,Kandy,2026-05-10,Released
+112,Cat,Mixed Breed,7,Male,Critical,Negombo,2026-02-20,Pending
+113,Dog,Golden Retriever,15,Female,Injured,Matara,2026-05-23,Rescued
+114,Cat,Persian,5,Female,Critical,Galle,2026-04-29,Rescued
+115,Cat,Siamese,10,Female,Healthy,Kandy,2026-01-06,Rescued
+116,Dog,German Shepherd,11,Male,Injured,Kurunegala,2026-05-25,Released
+117,Dog,Golden Retriever,6,Male,Sick,Matara,2026-05-14,Released
+118,Cat,Mixed Breed,13,Male,Critical,Kurunegala,2026-03-12,Under Treatment
+119,Dog,German Shepherd,15,Male,Injured,Jaffna,2026-06-26,Released
+120,Cat,Domestic Short Hair,8,Male,Healthy,Matara,2026-01-02,Released
+121,Dog,Beagle,12,Male,Critical,Kandy,2026-01-23,Pending
+122,Cat,British Shorthair,10,Male,Sick,Ratnapura,2026-06-23,Rescued
+123,Cat,British Shorthair,1,Female,Critical,Negombo,2026-02-08,Released
+124,Cat,British Shorthair,4,Female,Healthy,Kurunegala,2026-03-13,Pending
+125,Dog,Labrador,11,Male,Critical,Kandy,2026-02-22,Pending
+126,Dog,Rottweiler,4,Male,Healthy,Negombo,2026-03-28,Under Treatment
+127,Dog,Beagle,4,Male,Healthy,Kandy,2026-03-06,Under Treatment
+128,Dog,Mixed Breed,8,Male,Injured,Batticaloa,2026-01-26,Released
+129,Dog,Beagle,5,Female,Injured,Anuradhapura,2026-02-26,Pending
+130,Dog,Husky,9,Male,Injured,Negombo,2026-02-15,Released
+131,Cat,Siamese,15,Male,Healthy,Anuradhapura,2026-02-21,Under Treatment
+132,Cat,Persian,15,Female,Sick,Kandy,2026-02-12,Under Treatment
+133,Cat,British Shorthair,15,Female,Sick,Colombo,2026-03-12,Pending
+134,Dog,Rottweiler,3,Female,Sick,Negombo,2026-04-02,Pending
+135,Cat,Domestic Short Hair,12,Male,Critical,Jaffna,2026-05-02,Rescued
+136,Dog,Husky,5,Female,Healthy,Galle,2026-03-06,Released
+137,Cat,British Shorthair,9,Female,Sick,Ratnapura,2026-04-12,Rescued
+138,Dog,Rottweiler,11,Male,Critical,Anuradhapura,2026-02-17,Rescued
+139,Cat,Siamese,3,Male,Injured,Negombo,2026-01-14,Released
+140,Cat,Persian,12,Female,Healthy,Colombo,2026-06-30,Released
+141,Dog,Husky,14,Female,Sick,Kurunegala,2026-02-22,Pending
+142,Dog,Rottweiler,10,Female,Injured,Negombo,2026-06-23,Under Treatment
+143,Dog,Labrador,7,Male,Sick,Galle,2026-03-11,Released
+144,Dog,Mixed Breed,13,Female,Sick,Matara,2026-06-07,Pending
+145,Cat,Persian,3,Female,Injured,Anuradhapura,2026-06-20,Rescued
+146,Dog,Mixed Breed,4,Female,Injured,Batticaloa,2026-01-16,Released
+147,Cat,Persian,6,Male,Sick,Anuradhapura,2026-01-30,Rescued
+148,Cat,British Shorthair,7,Female,Healthy,Batticaloa,2026-01-27,Rescued
+149,Cat,Siamese,6,Male,Sick,Ratnapura,2026-01-27,Released
+150,Dog,Labrador,6,Female,Sick,Negombo,2026-05-29,Pending
+151,Cat,Domestic Short Hair,5,Female,Critical,Negombo,2026-01-28,Rescued
+152,Cat,Domestic Short Hair,7,Female,Critical,Negombo,2026-01-03,Rescued
+153,Cat,Siamese,1,Female,Healthy,Matara,2026-04-29,Pending
+154,Cat,Persian,12,Male,Injured,Jaffna,2026-04-03,Under Treatment
+155,Dog,Golden Retriever,9,Male,Critical,Ratnapura,2026-05-05,Rescued
+156,Dog,Beagle,10,Male,Injured,Ratnapura,2026-04-23,Pending
+157,Dog,Beagle,6,Male,Injured,Ratnapura,2026-06-14,Under Treatment
+158,Cat,Persian,1,Male,Injured,Batticaloa,2026-04-03,Rescued
+159,Cat,Siamese,10,Male,Healthy,Negombo,2026-03-25,Pending
+160,Cat,British Shorthair,6,Male,Critical,Jaffna,2026-04-15,Rescued
+161,Dog,Labrador,5,Male,Injured,Kandy,2026-04-21,Under Treatment
+162,Dog,Mixed Breed,3,Female,Healthy,Jaffna,2026-03-16,Rescued
+163,Cat,British Shorthair,3,Female,Healthy,Anuradhapura,2026-06-05,Under Treatment
+164,Cat,Persian,6,Female,Critical,Galle,2026-02-24,Released
+165,Dog,Beagle,13,Female,Sick,Batticaloa,2026-05-05,Under Treatment
+166,Cat,Mixed Breed,8,Male,Sick,Kandy,2026-04-25,Released
+167,Cat,Mixed Breed,7,Male,Critical,Negombo,2026-03-07,Released
+168,Cat,Persian,4,Female,Injured,Anuradhapura,2026-03-28,Rescued
+169,Dog,Beagle,13,Male,Sick,Kurunegala,2026-05-06,Pending
+170,Dog,Mixed Breed,4,Male,Critical,Colombo,2026-06-19,Under Treatment
+171,Dog,Labrador,1,Female,Critical,Jaffna,2026-06-21,Rescued
+172,Dog,Husky,4,Male,Healthy,Matara,2026-06-03,Released
+173,Dog,Rottweiler,11,Female,Injured,Kurunegala,2026-02-17,Under Treatment
+174,Dog,Golden Retriever,2,Male,Critical,Ratnapura,2026-05-17,Rescued
+175,Dog,German Shepherd,4,Female,Injured,Galle,2026-04-28,Pending
+176,Dog,Husky,8,Female,Critical,Ratnapura,2026-05-02,Released
+177,Cat,Mixed Breed,9,Female,Injured,Batticaloa,2026-02-26,Released
+178,Dog,Rottweiler,8,Female,Sick,Ratnapura,2026-01-07,Pending
+179,Dog,Rottweiler,9,Male,Sick,Jaffna,2026-03-02,Under Treatment
+180,Cat,Domestic Short Hair,10,Female,Critical,Ratnapura,2026-02-10,Under Treatment
+181,Dog,Labrador,2,Male,Sick,Galle,2026-06-15,Released
+182,Dog,Mixed Breed,4,Female,Healthy,Negombo,2026-04-24,Under Treatment
+183,Dog,Husky,12,Female,Sick,Kurunegala,2026-02-24,Pending
+184,Cat,Domestic Short Hair,12,Male,Healthy,Negombo,2026-06-01,Pending
+185,Cat,British Shorthair,5,Female,Critical,Jaffna,2026-04-01,Released
+186,Cat,Domestic Short Hair,5,Male,Injured,Galle,2026-06-21,Rescued
+187,Dog,German Shepherd,14,Male,Healthy,Ratnapura,2026-05-28,Pending
+188,Dog,Husky,5,Female,Injured,Kandy,2026-05-13,Pending
+189,Dog,Beagle,9,Female,Injured,Kandy,2026-01-30,Rescued
+190,Cat,Persian,8,Male,Critical,Ratnapura,2026-02-10,Pending
+191,Cat,Persian,8,Female,Healthy,Kurunegala,2026-02-18,Released
+192,Dog,Golden Retriever,6,Female,Injured,Kurunegala,2026-06-16,Released
+193,Cat,Persian,4,Male,Sick,Colombo,2026-05-26,Rescued
+194,Dog,Mixed Breed,13,Female,Critical,Anuradhapura,2026-05-07,Under Treatment
+195,Cat,British Shorthair,7,Male,Injured,Kandy,2026-04-04,Under Treatment
+196,Cat,Siamese,15,Female,Injured,Ratnapura,2026-05-03,Pending
+197,Cat,Domestic Short Hair,7,Female,Critical,Batticaloa,2026-04-02,Rescued
+198,Dog,Labrador,9,Female,Sick,Colombo,2026-04-06,Pending
+199,Cat,Domestic Short Hair,14,Female,Critical,Jaffna,2026-06-09,Rescued
+200,Dog,Husky,12,Male,Critical,Ratnapura,2026-06-23,Pending
+201,Cat,Persian,7,Male,Healthy,Galle,2026-02-10,Pending
+202,Cat,Mixed Breed,11,Male,Critical,Anuradhapura,2026-05-22,Rescued
+203,Cat,Domestic Short Hair,15,Female,Sick,Jaffna,2026-04-24,Under Treatment
+204,Dog,Mixed Breed,11,Male,Injured,Ratnapura,2026-06-20,Pending
+205,Cat,Siamese,15,Female,Sick,Anuradhapura,2026-02-07,Under Treatment
+206,Dog,German Shepherd,15,Male,Injured,Kandy,2026-06-06,Released
+207,Cat,Mixed Breed,3,Female,Injured,Batticaloa,2026-03-20,Rescued
+208,Dog,Golden Retriever,8,Female,Healthy,Ratnapura,2026-04-06,Under Treatment
+209,Dog,Labrador,5,Female,Healthy,Ratnapura,2026-06-30,Under Treatment
+210,Dog,Husky,6,Male,Sick,Anuradhapura,2026-02-20,Under Treatment
+211,Dog,Labrador,2,Male,Injured,Colombo,2026-06-21,Pending
+212,Cat,Domestic Short Hair,14,Male,Healthy,Kandy,2026-04-02,Pending
+213,Dog,Beagle,8,Female,Sick,Matara,2026-02-15,Released
+214,Cat,Persian,10,Female,Healthy,Kandy,2026-02-01,Pending
+215,Cat,Domestic Short Hair,7,Male,Injured,Colombo,2026-01-24,Rescued
+216,Cat,Siamese,14,Male,Injured,Negombo,2026-02-11,Released
+217,Cat,Mixed Breed,9,Male,Critical,Jaffna,2026-04-03,Under Treatment
+218,Cat,Domestic Short Hair,11,Female,Critical,Anuradhapura,2026-04-08,Rescued
+219,Dog,Husky,15,Female,Critical,Anuradhapura,2026-04-08,Pending
+220,Cat,Siamese,4,Female,Healthy,Kandy,2026-06-18,Pending
+221,Cat,Domestic Short Hair,7,Female,Sick,Ratnapura,2026-02-18,Rescued
+222,Dog,Labrador,8,Female,Critical,Jaffna,2026-05-28,Under Treatment
+223,Dog,Golden Retriever,1,Male,Sick,Colombo,2026-05-13,Rescued
+224,Dog,Rottweiler,3,Male,Critical,Anuradhapura,2026-06-29,Rescued
+225,Cat,Mixed Breed,12,Male,Sick,Batticaloa,2026-02-06,Released
+226,Cat,Siamese,12,Female,Critical,Kandy,2026-03-25,Under Treatment
+227,Cat,Domestic Short Hair,9,Male,Sick,Negombo,2026-01-31,Under Treatment
+228,Dog,German Shepherd,12,Female,Injured,Matara,2026-05-12,Released
+229,Cat,British Shorthair,6,Male,Injured,Anuradhapura,2026-03-18,Pending
+230,Cat,Persian,2,Male,Injured,Anuradhapura,2026-03-19,Released
+231,Dog,Golden Retriever,13,Male,Sick,Batticaloa,2026-06-19,Under Treatment
+232,Dog,Husky,1,Female,Healthy,Jaffna,2026-03-21,Under Treatment
+233,Dog,Beagle,9,Female,Healthy,Matara,2026-02-13,Rescued
+234,Dog,Mixed Breed,1,Male,Critical,Kurunegala,2026-06-17,Under Treatment
+235,Dog,German Shepherd,14,Male,Critical,Matara,2026-02-07,Under Treatment
+236,Cat,British Shorthair,4,Male,Critical,Galle,2026-02-16,Pending
+237,Dog,Beagle,1,Female,Injured,Kandy,2026-05-09,Pending
+238,Dog,Mixed Breed,11,Male,Healthy,Colombo,2026-02-25,Pending
+239,Dog,Golden Retriever,5,Male,Critical,Negombo,2026-06-26,Pending
+240,Dog,Beagle,15,Male,Sick,Matara,2026-02-03,Pending
+241,Dog,Golden Retriever,13,Male,Critical,Negombo,2026-03-24,Released
+242,Dog,Beagle,11,Male,Injured,Colombo,2026-04-02,Under Treatment
+243,Dog,German Shepherd,8,Female,Healthy,Ratnapura,2026-04-15,Rescued
+244,Cat,Domestic Short Hair,3,Female,Healthy,Negombo,2026-01-03,Pending
+245,Dog,Golden Retriever,14,Female,Critical,Kandy,2026-05-17,Released
+246,Cat,British Shorthair,7,Female,Sick,Negombo,2026-05-31,Released
+247,Cat,Domestic Short Hair,10,Male,Injured,Kurunegala,2026-05-13,Under Treatment
+248,Cat,Domestic Short Hair,8,Male,Injured,Batticaloa,2026-05-23,Rescued
+249,Dog,Husky,3,Male,Healthy,Kandy,2026-04-18,Under Treatment
+250,Dog,Beagle,1,Male,Critical,Ratnapura,2026-03-28,Rescued
+251,Dog,Labrador,6,Male,Sick,Batticaloa,2026-04-16,Rescued
+252,Dog,Husky,11,Male,Injured,Kurunegala,2026-05-05,Rescued
+253,Cat,Domestic Short Hair,9,Male,Healthy,Kurunegala,2026-06-15,Rescued
+254,Cat,Domestic Short Hair,7,Female,Injured,Colombo,2026-03-24,Pending
+255,Cat,British Shorthair,13,Female,Healthy,Jaffna,2026-01-31,Rescued
+256,Dog,Golden Retriever,4,Male,Injured,Anuradhapura,2026-05-30,Rescued
+257,Cat,Siamese,7,Male,Sick,Negombo,2026-05-14,Pending
+258,Cat,British Shorthair,6,Male,Healthy,Negombo,2026-04-28,Under Treatment
+259,Cat,Domestic Short Hair,11,Male,Injured,Batticaloa,2026-06-23,Under Treatment
+260,Cat,Persian,9,Male,Sick,Kandy,2026-03-18,Under Treatment
+261,Cat,British Shorthair,11,Female,Injured,Negombo,2026-01-10,Under Treatment
+262,Cat,Siamese,1,Female,Critical,Kandy,2026-02-23,Released
+263,Dog,German Shepherd,13,Male,Injured,Kandy,2026-06-24,Under Treatment
+264,Dog,Mixed Breed,9,Female,Sick,Kandy,2026-04-08,Released
+265,Cat,Domestic Short Hair,13,Female,Injured,Ratnapura,2026-01-04,Pending
+266,Cat,British Shorthair,13,Female,Healthy,Negombo,2026-05-09,Rescued
+267,Dog,Husky,13,Male,Healthy,Negombo,2026-04-18,Released
+268,Dog,Golden Retriever,9,Male,Critical,Anuradhapura,2026-01-10,Under Treatment
+269,Dog,Labrador,14,Male,Injured,Colombo,2026-04-10,Pending
+270,Cat,Domestic Short Hair,5,Male,Critical,Negombo,2026-05-06,Rescued
+271,Dog,Golden Retriever,3,Female,Healthy,Kandy,2026-01-14,Released
+272,Dog,Rottweiler,13,Female,Critical,Kandy,2026-05-09,Released
+273,Cat,British Shorthair,6,Male,Critical,Anuradhapura,2026-03-24,Released
+274,Dog,German Shepherd,1,Female,Critical,Kurunegala,2026-01-23,Rescued
+275,Dog,Husky,3,Male,Healthy,Kandy,2026-06-11,Rescued
+276,Dog,Beagle,15,Male,Injured,Batticaloa,2026-06-20,Released
+277,Dog,Mixed Breed,7,Female,Injured,Ratnapura,2026-06-27,Rescued
+278,Cat,British Shorthair,15,Male,Critical,Negombo,2026-05-15,Pending
+279,Dog,Rottweiler,9,Female,Sick,Galle,2026-05-20,Under Treatment
+280,Cat,Siamese,4,Male,Sick,Kandy,2026-05-31,Released
+281,Cat,British Shorthair,4,Female,Sick,Colombo,2026-06-02,Under Treatment
+282,Dog,Mixed Breed,11,Female,Injured,Colombo,2026-05-14,Under Treatment
+283,Dog,Husky,15,Female,Sick,Jaffna,2026-01-17,Rescued
+284,Cat,Siamese,14,Female,Sick,Ratnapura,2026-06-08,Rescued
+285,Dog,Husky,1,Female,Healthy,Jaffna,2026-02-19,Under Treatment
+286,Dog,Labrador,1,Male,Injured,Kurunegala,2026-02-11,Under Treatment
+287,Cat,Siamese,8,Male,Injured,Ratnapura,2026-03-09,Under Treatment
+288,Cat,Siamese,6,Female,Healthy,Anuradhapura,2026-02-18,Released
+289,Dog,Mixed Breed,15,Male,Healthy,Anuradhapura,2026-01-28,Released
+290,Dog,Beagle,14,Female,Critical,Batticaloa,2026-05-14,Rescued
+291,Dog,Labrador,13,Female,Critical,Negombo,2026-02-06,Under Treatment
+292,Dog,Beagle,13,Female,Sick,Anuradhapura,2026-04-26,Released
+293,Dog,Labrador,3,Female,Sick,Colombo,2026-05-21,Released
+294,Dog,Golden Retriever,11,Male,Healthy,Batticaloa,2026-02-04,Released
+295,Dog,Labrador,7,Male,Injured,Kandy,2026-03-25,Rescued
+296,Dog,Husky,7,Male,Critical,Ratnapura,2026-01-24,Released
+297,Dog,Rottweiler,7,Female,Healthy,Anuradhapura,2026-03-20,Pending
+298,Cat,Mixed Breed,15,Male,Healthy,Kandy,2026-02-21,Under Treatment
+299,Dog,Rottweiler,5,Female,Sick,Ratnapura,2026-04-18,Pending
+300,Dog,Labrador,4,Male,Sick,Anuradhapura,2026-01-16,Rescued
+301,Dog,Beagle,14,Male,Critical,Kurunegala,2026-01-26,Rescued
+302,Cat,British Shorthair,1,Male,Injured,Kandy,2026-03-12,Released
+303,Cat,Mixed Breed,2,Female,Sick,Anuradhapura,2026-06-28,Under Treatment
+304,Cat,British Shorthair,11,Male,Critical,Kurunegala,2026-03-29,Under Treatment
+305,Cat,Domestic Short Hair,2,Male,Sick,Kurunegala,2026-06-13,Under Treatment
+306,Dog,Beagle,1,Male,Healthy,Anuradhapura,2026-03-26,Rescued
+307,Cat,British Shorthair,12,Male,Injured,Kurunegala,2026-05-16,Rescued
+308,Cat,Mixed Breed,2,Female,Injured,Negombo,2026-04-18,Rescued
+309,Cat,Mixed Breed,3,Male,Healthy,Colombo,2026-01-18,Under Treatment
+310,Dog,Husky,10,Female,Critical,Kandy,2026-04-25,Rescued
+311,Cat,Domestic Short Hair,1,Female,Injured,Kurunegala,2026-02-14,Released
+312,Dog,Husky,1,Male,Critical,Galle,2026-05-07,Pending
+313,Dog,Golden Retriever,1,Male,Sick,Jaffna,2026-05-06,Rescued
+314,Dog,Golden Retriever,2,Male,Injured,Kandy,2026-03-11,Released
+315,Dog,Mixed Breed,14,Female,Healthy,Kandy,2026-03-14,Pending
+316,Dog,Beagle,14,Female,Healthy,Kurunegala,2026-03-24,Pending
+317,Cat,Persian,5,Male,Injured,Galle,2026-01-03,Pending
+318,Cat,Mixed Breed,2,Male,Sick,Colombo,2026-05-26,Rescued
+319,Cat,Persian,11,Female,Critical,Kurunegala,2026-06-22,Under Treatment
+320,Cat,British Shorthair,9,Female,Healthy,Batticaloa,2026-01-07,Pending
+321,Dog,German Shepherd,7,Male,Sick,Batticaloa,2026-02-15,Rescued
+322,Dog,German Shepherd,1,Female,Healthy,Colombo,2026-05-03,Under Treatment
+323,Cat,Persian,2,Female,Sick,Ratnapura,2026-04-12,Under Treatment
+324,Dog,Mixed Breed,5,Female,Critical,Ratnapura,2026-05-26,Rescued
+325,Cat,Domestic Short Hair,3,Male,Sick,Kandy,2026-02-16,Pending
+326,Cat,Mixed Breed,13,Female,Injured,Kandy,2026-06-16,Released
+327,Dog,Labrador,15,Female,Critical,Kurunegala,2026-05-13,Rescued
+328,Cat,Persian,2,Female,Critical,Jaffna,2026-03-20,Rescued
+329,Dog,Husky,7,Male,Injured,Colombo,2026-03-09,Under Treatment
+330,Dog,Husky,1,Male,Sick,Colombo,2026-04-20,Under Treatment
+331,Cat,Siamese,1,Female,Sick,Ratnapura,2026-01-21,Pending
+332,Cat,Domestic Short Hair,5,Female,Sick,Jaffna,2026-05-10,Pending
+333,Dog,Rottweiler,10,Female,Critical,Batticaloa,2026-02-10,Released
+334,Dog,Husky,5,Male,Critical,Jaffna,2026-01-25,Pending
+335,Dog,German Shepherd,7,Female,Sick,Kurunegala,2026-05-03,Rescued
+336,Cat,Persian,9,Female,Critical,Anuradhapura,2026-06-26,Released
+337,Dog,Labrador,2,Male,Injured,Matara,2026-02-04,Under Treatment
+338,Cat,Siamese,15,Male,Sick,Negombo,2026-06-18,Pending
+339,Dog,Labrador,3,Male,Sick,Colombo,2026-05-10,Rescued
+340,Cat,Mixed Breed,8,Female,Sick,Ratnapura,2026-04-23,Released
+341,Cat,Siamese,6,Male,Sick,Kandy,2026-01-25,Pending
+342,Dog,Rottweiler,5,Female,Healthy,Kandy,2026-03-29,Pending
+343,Cat,Persian,10,Male,Injured,Negombo,2026-04-11,Rescued
+344,Cat,Persian,15,Male,Healthy,Ratnapura,2026-01-09,Released
+345,Cat,Mixed Breed,15,Male,Healthy,Batticaloa,2026-05-22,Rescued
+346,Cat,Siamese,12,Female,Sick,Kandy,2026-01-06,Pending
+347,Cat,British Shorthair,1,Male,Healthy,Ratnapura,2026-02-20,Pending
+348,Dog,Labrador,14,Female,Injured,Matara,2026-05-23,Released
+349,Dog,Mixed Breed,6,Female,Injured,Negombo,2026-05-11,Pending
+350,Cat,British Shorthair,11,Female,Critical,Jaffna,2026-01-12,Rescued
+351,Cat,Mixed Breed,3,Female,Critical,Kandy,2026-05-23,Rescued
+352,Dog,Mixed Breed,13,Female,Healthy,Jaffna,2026-01-31,Pending
+353,Dog,German Shepherd,1,Male,Healthy,Colombo,2026-01-17,Rescued
+354,Cat,British Shorthair,5,Female,Sick,Kurunegala,2026-06-25,Pending
+355,Cat,Siamese,6,Female,Healthy,Batticaloa,2026-05-27,Under Treatment
+356,Cat,Domestic Short Hair,1,Female,Healthy,Kandy,2026-01-27,Under Treatment
+357,Dog,Labrador,6,Male,Healthy,Colombo,2026-06-03,Pending
+358,Dog,German Shepherd,15,Female,Sick,Kurunegala,2026-06-20,Pending
+359,Dog,Golden Retriever,7,Female,Healthy,Batticaloa,2026-04-11,Released
+360,Dog,Husky,8,Male,Sick,Kandy,2026-02-27,Rescued
+361,Cat,Siamese,5,Male,Injured,Negombo,2026-01-30,Under Treatment
+362,Dog,German Shepherd,7,Female,Injured,Ratnapura,2026-05-07,Rescued
+363,Cat,British Shorthair,15,Female,Injured,Galle,2026-03-08,Pending
+364,Cat,Mixed Breed,15,Male,Sick,Colombo,2026-05-10,Pending
+365,Cat,Mixed Breed,3,Female,Injured,Colombo,2026-06-07,Under Treatment
+366,Cat,Mixed Breed,7,Male,Sick,Kandy,2026-04-03,Under Treatment
+367,Dog,Rottweiler,5,Male,Injured,Batticaloa,2026-06-07,Pending
+368,Dog,Mixed Breed,10,Female,Critical,Ratnapura,2026-05-07,Released
+369,Dog,Husky,5,Female,Sick,Matara,2026-04-17,Under Treatment
+370,Dog,Rottweiler,8,Female,Injured,Colombo,2026-02-10,Pending
+371,Dog,Golden Retriever,4,Female,Healthy,Jaffna,2026-03-26,Rescued
+372,Cat,Siamese,14,Male,Healthy,Ratnapura,2026-04-19,Released
+373,Dog,Mixed Breed,4,Female,Injured,Anuradhapura,2026-01-12,Pending
+374,Dog,Golden Retriever,13,Female,Healthy,Negombo,2026-02-10,Rescued
+375,Dog,Labrador,4,Female,Healthy,Negombo,2026-02-03,Under Treatment
+376,Cat,Mixed Breed,10,Female,Healthy,Anuradhapura,2026-02-14,Pending
+377,Dog,Beagle,9,Male,Sick,Kurunegala,2026-03-24,Released
+378,Cat,British Shorthair,12,Male,Healthy,Ratnapura,2026-01-15,Pending
+379,Dog,German Shepherd,15,Female,Critical,Jaffna,2026-03-15,Pending
+380,Cat,Persian,6,Female,Healthy,Batticaloa,2026-03-18,Pending
+381,Dog,Rottweiler,1,Female,Sick,Matara,2026-03-24,Under Treatment
+382,Dog,Labrador,1,Male,Sick,Kurunegala,2026-04-30,Under Treatment
+383,Dog,Labrador,5,Female,Healthy,Kandy,2026-01-11,Released
+384,Cat,Siamese,1,Female,Injured,Kandy,2026-02-06,Rescued
+385,Dog,German Shepherd,9,Male,Sick,Kandy,2026-06-23,Pending
+386,Cat,Persian,7,Male,Critical,Jaffna,2026-05-13,Under Treatment
+387,Cat,Siamese,8,Male,Injured,Kandy,2026-03-11,Pending
+388,Cat,British Shorthair,4,Female,Healthy,Kandy,2026-03-11,Pending
+389,Dog,German Shepherd,12,Male,Critical,Colombo,2026-06-19,Released
+390,Dog,Golden Retriever,9,Female,Sick,Kurunegala,2026-05-03,Released
+391,Cat,Domestic Short Hair,1,Male,Sick,Ratnapura,2026-06-03,Under Treatment
+392,Dog,Mixed Breed,12,Male,Sick,Anuradhapura,2026-06-01,Rescued
+393,Cat,British Shorthair,3,Female,Healthy,Negombo,2026-04-17,Rescued
+394,Cat,Siamese,9,Female,Critical,Ratnapura,2026-04-03,Under Treatment
+395,Cat,British Shorthair,6,Female,Injured,Galle,2026-03-04,Rescued
+396,Dog,Labrador,10,Female,Critical,Kandy,2026-04-29,Released
+397,Dog,Rottweiler,1,Male,Healthy,Kurunegala,2026-04-06,Rescued
+398,Cat,Domestic Short Hair,5,Female,Injured,Batticaloa,2026-03-01,Released
+399,Cat,Domestic Short Hair,5,Female,Injured,Galle,2026-05-09,Released
+400,Dog,Beagle,3,Female,Healthy,Batticaloa,2026-04-01,Under Treatment
+401,Cat,Mixed Breed,11,Male,Critical,Kurunegala,2026-04-15,Pending
+402,Dog,Husky,3,Female,Healthy,Anuradhapura,2026-06-23,Pending
+403,Dog,Labrador,7,Female,Critical,Jaffna,2026-05-24,Under Treatment
+404,Dog,German Shepherd,10,Male,Injured,Negombo,2026-05-02,Rescued
+405,Dog,Golden Retriever,4,Female,Injured,Kandy,2026-03-12,Released
+406,Dog,Mixed Breed,1,Male,Healthy,Batticaloa,2026-01-21,Under Treatment
+407,Dog,Beagle,9,Male,Critical,Galle,2026-03-25,Rescued
+408,Dog,Rottweiler,5,Male,Injured,Matara,2026-01-15,Released
+409,Cat,Mixed Breed,8,Female,Critical,Kandy,2026-02-04,Rescued
+410,Cat,Domestic Short Hair,6,Female,Injured,Matara,2026-06-13,Under Treatment
+411,Cat,Persian,10,Female,Critical,Matara,2026-05-03,Under Treatment
+412,Cat,British Shorthair,10,Female,Critical,Kurunegala,2026-01-30,Under Treatment
+413,Dog,Golden Retriever,10,Male,Injured,Kurunegala,2026-04-01,Rescued
+414,Dog,Rottweiler,13,Male,Sick,Anuradhapura,2026-03-29,Under Treatment
+415,Cat,Siamese,2,Female,Injured,Anuradhapura,2026-05-24,Rescued
+416,Dog,Rottweiler,7,Female,Sick,Matara,2026-02-16,Pending
+417,Cat,Domestic Short Hair,12,Male,Critical,Matara,2026-01-28,Rescued
+418,Dog,Beagle,11,Female,Critical,Anuradhapura,2026-06-19,Released
+419,Dog,German Shepherd,12,Female,Sick,Kandy,2026-03-14,Released
+420,Dog,Husky,6,Female,Healthy,Kandy,2026-03-06,Pending
+421,Cat,Mixed Breed,3,Female,Healthy,Anuradhapura,2026-02-01,Released
+422,Dog,German Shepherd,8,Male,Sick,Negombo,2026-01-03,Rescued
+423,Dog,Husky,7,Male,Sick,Jaffna,2026-05-24,Under Treatment
+424,Cat,Mixed Breed,13,Male,Sick,Jaffna,2026-05-29,Under Treatment
+425,Cat,British Shorthair,2,Male,Injured,Kurunegala,2026-04-05,Rescued
+426,Dog,Labrador,7,Male,Healthy,Jaffna,2026-03-22,Pending
+427,Cat,Domestic Short Hair,9,Female,Sick,Anuradhapura,2026-02-22,Pending
+428,Cat,Domestic Short Hair,6,Male,Critical,Kandy,2026-01-31,Pending
+429,Cat,Persian,9,Male,Critical,Batticaloa,2026-03-11,Under Treatment
+430,Dog,Mixed Breed,14,Male,Critical,Jaffna,2026-04-25,Pending
+431,Cat,Siamese,8,Male,Sick,Jaffna,2026-04-09,Under Treatment
+432,Cat,British Shorthair,9,Male,Injured,Batticaloa,2026-02-13,Under Treatment
+433,Dog,Labrador,14,Male,Sick,Jaffna,2026-01-31,Rescued
+434,Cat,British Shorthair,14,Female,Sick,Ratnapura,2026-05-09,Rescued
+435,Dog,German Shepherd,9,Male,Healthy,Jaffna,2026-04-01,Rescued
+436,Dog,Mixed Breed,12,Male,Sick,Jaffna,2026-06-08,Released
+437,Dog,Golden Retriever,14,Male,Healthy,Anuradhapura,2026-05-17,Released
+438,Dog,Labrador,8,Male,Injured,Galle,2026-02-19,Under Treatment
+439,Cat,Siamese,8,Male,Injured,Kandy,2026-04-04,Rescued
+440,Dog,Golden Retriever,6,Male,Sick,Galle,2026-03-24,Pending
+441,Dog,German Shepherd,12,Female,Injured,Ratnapura,2026-02-07,Released
+442,Dog,Rottweiler,8,Female,Sick,Jaffna,2026-05-22,Rescued
+443,Dog,Husky,2,Male,Healthy,Matara,2026-05-15,Under Treatment
+444,Dog,Mixed Breed,3,Female,Healthy,Kurunegala,2026-06-01,Under Treatment
+445,Cat,Siamese,7,Male,Critical,Galle,2026-02-01,Pending
+446,Dog,German Shepherd,11,Male,Critical,Matara,2026-01-03,Under Treatment
+447,Cat,Mixed Breed,4,Female,Critical,Kurunegala,2026-05-17,Rescued
+448,Cat,British Shorthair,10,Female,Healthy,Kandy,2026-01-10,Rescued
+449,Dog,Mixed Breed,6,Female,Healthy,Colombo,2026-06-11,Pending
+450,Dog,German Shepherd,12,Female,Healthy,Jaffna,2026-04-30,Rescued
+451,Dog,Beagle,13,Male,Critical,Batticaloa,2026-06-29,Rescued
+452,Cat,Domestic Short Hair,8,Male,Sick,Kurunegala,2026-05-02,Released
+453,Dog,Labrador,3,Female,Sick,Negombo,2026-06-25,Released
+454,Dog,Mixed Breed,9,Female,Healthy,Colombo,2026-05-06,Rescued
+455,Dog,Golden Retriever,13,Male,Injured,Batticaloa,2026-03-27,Pending
+456,Cat,Mixed Breed,11,Male,Injured,Galle,2026-02-21,Released
+457,Dog,Beagle,11,Female,Critical,Galle,2026-03-10,Pending
+458,Cat,Domestic Short Hair,10,Female,Sick,Galle,2026-05-27,Pending
+459,Dog,Beagle,7,Female,Healthy,Kandy,2026-04-30,Released
+460,Cat,Siamese,15,Female,Healthy,Negombo,2026-03-31,Rescued
+461,Dog,Mixed Breed,1,Female,Injured,Kandy,2026-02-13,Rescued
+462,Dog,Golden Retriever,7,Female,Critical,Anuradhapura,2026-03-06,Released
+463,Dog,Beagle,9,Female,Healthy,Anuradhapura,2026-04-20,Pending
+464,Cat,British Shorthair,10,Male,Critical,Galle,2026-01-07,Rescued
+465,Cat,Persian,1,Male,Injured,Colombo,2026-06-29,Released
+466,Dog,Rottweiler,2,Female,Injured,Matara,2026-05-07,Under Treatment
+467,Cat,British Shorthair,15,Female,Critical,Matara,2026-05-01,Under Treatment
+468,Dog,Labrador,8,Male,Critical,Matara,2026-02-16,Under Treatment
+469,Dog,Beagle,14,Female,Healthy,Kurunegala,2026-06-29,Released
+470,Cat,Domestic Short Hair,6,Male,Critical,Ratnapura,2026-04-04,Pending
+471,Cat,Mixed Breed,7,Male,Healthy,Kandy,2026-05-01,Rescued
+472,Cat,Persian,15,Female,Injured,Galle,2026-04-17,Rescued
+473,Dog,Labrador,13,Male,Injured,Colombo,2026-01-31,Under Treatment
+474,Cat,Persian,1,Male,Critical,Kurunegala,2026-03-10,Under Treatment
+475,Cat,Domestic Short Hair,13,Female,Sick,Negombo,2026-02-06,Under Treatment
+476,Cat,Domestic Short Hair,4,Female,Injured,Kurunegala,2026-01-16,Rescued
+477,Cat,Mixed Breed,10,Male,Critical,Colombo,2026-06-27,Under Treatment
+478,Dog,Labrador,4,Male,Injured,Kandy,2026-03-23,Under Treatment
+479,Cat,Domestic Short Hair,3,Male,Healthy,Ratnapura,2026-05-20,Released
+480,Cat,Siamese,15,Male,Sick,Ratnapura,2026-05-11,Released
+481,Cat,Siamese,9,Male,Critical,Colombo,2026-01-30,Pending
+482,Dog,Mixed Breed,9,Female,Healthy,Matara,2026-02-23,Pending
+483,Dog,Mixed Breed,5,Male,Sick,Galle,2026-06-03,Released
+484,Cat,Mixed Breed,9,Male,Critical,Negombo,2026-03-04,Rescued
+485,Cat,British Shorthair,14,Female,Healthy,Matara,2026-02-25,Under Treatment
+486,Dog,Mixed Breed,11,Male,Healthy,Colombo,2026-06-19,Pending
+487,Dog,Husky,14,Male,Healthy,Kurunegala,2026-04-15,Under Treatment
+488,Cat,British Shorthair,13,Male,Injured,Galle,2026-06-12,Pending
+489,Dog,Rottweiler,3,Female,Sick,Kandy,2026-03-21,Under Treatment
+490,Cat,Siamese,9,Female,Healthy,Galle,2026-03-09,Released
+491,Dog,German Shepherd,4,Male,Injured,Jaffna,2026-01-12,Released
+492,Dog,Labrador,1,Female,Injured,Matara,2026-05-14,Released
+493,Dog,Golden Retriever,12,Male,Sick,Jaffna,2026-05-23,Released
+494,Dog,Rottweiler,15,Female,Healthy,Galle,2026-03-04,Under Treatment
+495,Cat,Siamese,2,Male,Healthy,Anuradhapura,2026-04-01,Rescued
+496,Dog,German Shepherd,5,Female,Injured,Ratnapura,2026-05-25,Released
+497,Cat,British Shorthair,9,Female,Critical,Colombo,2026-01-17,Pending
+498,Cat,Persian,8,Male,Injured,Batticaloa,2026-04-03,Released
+499,Dog,Beagle,12,Male,Sick,Galle,2026-06-25,Rescued
+500,Cat,British Shorthair,6,Female,Critical,Kurunegala,2026-04-07,Under Treatment
+501,Cat,British Shorthair,6,Female,Injured,Matara,2026-05-28,Under Treatment
+502,Dog,Rottweiler,12,Male,Sick,Kurunegala,2026-06-05,Under Treatment
+503,Dog,Golden Retriever,11,Male,Critical,Galle,2026-03-12,Under Treatment
+504,Dog,Husky,6,Female,Injured,Batticaloa,2026-02-03,Rescued
+505,Dog,Husky,5,Male,Sick,Galle,2026-01-19,Under Treatment
+506,Cat,Domestic Short Hair,4,Female,Injured,Galle,2026-02-02,Rescued
+507,Cat,Persian,1,Female,Sick,Galle,2026-01-08,Released
+508,Dog,Rottweiler,12,Female,Sick,Matara,2026-05-28,Released
+509,Cat,British Shorthair,11,Female,Critical,Batticaloa,2026-06-26,Rescued
+510,Dog,Golden Retriever,9,Male,Healthy,Negombo,2026-01-01,Pending
+511,Cat,Mixed Breed,12,Male,Injured,Anuradhapura,2026-05-10,Under Treatment
+512,Dog,Beagle,10,Female,Sick,Kurunegala,2026-01-26,Rescued
+513,Dog,Rottweiler,12,Female,Healthy,Kurunegala,2026-03-26,Rescued
+514,Dog,Mixed Breed,11,Male,Sick,Ratnapura,2026-04-11,Pending
+515,Dog,Rottweiler,13,Female,Healthy,Matara,2026-06-17,Pending
+516,Dog,Mixed Breed,15,Female,Injured,Matara,2026-01-29,Under Treatment
+517,Dog,Beagle,11,Female,Injured,Galle,2026-02-08,Rescued
+518,Dog,Beagle,5,Male,Sick,Anuradhapura,2026-05-31,Released
+519,Cat,British Shorthair,10,Female,Sick,Kandy,2026-03-30,Rescued
+520,Dog,Golden Retriever,1,Female,Injured,Kurunegala,2026-01-09,Released
+521,Cat,Siamese,8,Male,Injured,Negombo,2026-06-28,Released
+522,Cat,Mixed Breed,14,Female,Critical,Matara,2026-05-05,Under Treatment
+523,Dog,Labrador,2,Female,Injured,Ratnapura,2026-04-19,Rescued
+524,Cat,Siamese,10,Male,Healthy,Kurunegala,2026-01-07,Under Treatment
+525,Cat,Domestic Short Hair,9,Male,Critical,Matara,2026-05-16,Pending
+526,Dog,Husky,9,Male,Sick,Negombo,2026-06-10,Released
+527,Dog,Labrador,9,Male,Healthy,Kurunegala,2026-03-08,Released
+528,Dog,Golden Retriever,8,Male,Healthy,Ratnapura,2026-06-12,Released
+529,Cat,Siamese,11,Male,Critical,Kandy,2026-05-24,Under Treatment
+530,Cat,Siamese,13,Female,Healthy,Jaffna,2026-02-19,Rescued
+531,Dog,German Shepherd,6,Male,Critical,Colombo,2026-02-27,Released
+532,Dog,Husky,7,Male,Healthy,Ratnapura,2026-05-22,Rescued
+533,Dog,Golden Retriever,10,Male,Sick,Matara,2026-02-03,Under Treatment
+534,Cat,Siamese,9,Female,Critical,Ratnapura,2026-03-13,Under Treatment
+535,Cat,Domestic Short Hair,1,Male,Healthy,Anuradhapura,2026-03-10,Released
+536,Cat,Siamese,6,Female,Critical,Galle,2026-05-13,Rescued
+537,Dog,Rottweiler,6,Male,Sick,Batticaloa,2026-04-21,Rescued
+538,Cat,Mixed Breed,9,Female,Healthy,Ratnapura,2026-05-31,Released
+539,Dog,Rottweiler,4,Female,Healthy,Anuradhapura,2026-04-12,Released
+540,Cat,British Shorthair,9,Female,Healthy,Galle,2026-04-11,Released
+541,Dog,Rottweiler,13,Male,Sick,Matara,2026-06-16,Released
+542,Cat,British Shorthair,13,Male,Healthy,Jaffna,2026-06-25,Under Treatment
+543,Cat,Siamese,7,Male,Sick,Colombo,2026-02-02,Pending
+544,Cat,Domestic Short Hair,4,Female,Injured,Anuradhapura,2026-05-15,Rescued
+545,Cat,British Shorthair,15,Male,Injured,Colombo,2026-03-02,Under Treatment
+546,Cat,Mixed Breed,11,Female,Sick,Colombo,2026-04-16,Rescued
+547,Cat,Siamese,9,Female,Injured,Negombo,2026-01-12,Under Treatment
+548,Dog,Husky,14,Male,Sick,Galle,2026-04-24,Rescued
+549,Cat,Persian,6,Female,Sick,Batticaloa,2026-02-05,Under Treatment
+550,Dog,Rottweiler,9,Male,Sick,Galle,2026-04-21,Rescued
+551,Dog,German Shepherd,11,Male,Injured,Negombo,2026-02-22,Released
+552,Cat,British Shorthair,10,Male,Sick,Jaffna,2026-01-15,Released
+553,Dog,Mixed Breed,15,Male,Healthy,Kurunegala,2026-04-01,Under Treatment
+554,Dog,Rottweiler,12,Female,Injured,Kandy,2026-03-31,Pending
+555,Cat,British Shorthair,4,Female,Healthy,Colombo,2026-02-03,Rescued
+556,Cat,Siamese,11,Male,Critical,Batticaloa,2026-05-29,Rescued
+557,Cat,Persian,12,Female,Healthy,Jaffna,2026-01-09,Released
+558,Dog,Golden Retriever,4,Male,Sick,Matara,2026-03-22,Pending
+559,Dog,Rottweiler,10,Male,Injured,Colombo,2026-03-23,Rescued
+560,Dog,Labrador,14,Female,Healthy,Anuradhapura,2026-01-31,Released
+561,Dog,Golden Retriever,12,Female,Sick,Kurunegala,2026-05-01,Released
+562,Dog,Mixed Breed,5,Male,Healthy,Ratnapura,2026-05-02,Released
+563,Dog,Beagle,11,Male,Injured,Matara,2026-02-17,Pending
+564,Cat,Domestic Short Hair,8,Male,Healthy,Galle,2026-05-04,Released
+565,Cat,Domestic Short Hair,6,Female,Healthy,Batticaloa,2026-06-23,Under Treatment
+566,Dog,Mixed Breed,13,Female,Sick,Negombo,2026-03-07,Released
+567,Cat,British Shorthair,5,Female,Critical,Matara,2026-03-10,Released
+568,Dog,Beagle,15,Male,Healthy,Kandy,2026-06-25,Under Treatment
+569,Dog,German Shepherd,2,Female,Healthy,Negombo,2026-01-30,Pending
+570,Cat,Domestic Short Hair,15,Female,Injured,Negombo,2026-01-30,Released
+571,Cat,British Shorthair,6,Female,Critical,Galle,2026-03-11,Rescued
+572,Dog,German Shepherd,6,Male,Injured,Matara,2026-04-15,Under Treatment
+573,Cat,Siamese,13,Male,Critical,Kandy,2026-05-22,Under Treatment
+574,Dog,Golden Retriever,5,Female,Sick,Matara,2026-01-29,Rescued
+575,Dog,German Shepherd,12,Male,Critical,Negombo,2026-06-06,Released
+576,Cat,Domestic Short Hair,7,Female,Injured,Negombo,2026-02-26,Under Treatment
+577,Dog,Beagle,7,Female,Sick,Matara,2026-02-12,Pending
+578,Cat,British Shorthair,6,Male,Injured,Anuradhapura,2026-04-23,Pending
+579,Cat,Mixed Breed,8,Male,Sick,Galle,2026-06-01,Under Treatment
+580,Dog,Golden Retriever,1,Male,Healthy,Negombo,2026-05-16,Under Treatment
+581,Dog,Husky,1,Male,Healthy,Kandy,2026-04-21,Rescued
+582,Dog,German Shepherd,5,Female,Sick,Kandy,2026-02-27,Under Treatment
+583,Cat,Mixed Breed,8,Male,Injured,Batticaloa,2026-04-05,Under Treatment
+584,Cat,Mixed Breed,15,Female,Sick,Batticaloa,2026-02-16,Pending
+585,Dog,German Shepherd,7,Male,Critical,Kandy,2026-05-08,Under Treatment
+586,Dog,Rottweiler,1,Male,Healthy,Galle,2026-04-30,Under Treatment
+587,Dog,Mixed Breed,4,Female,Critical,Matara,2026-06-19,Pending
+588,Cat,Siamese,8,Female,Injured,Negombo,2026-02-28,Under Treatment
+589,Cat,Domestic Short Hair,3,Female,Critical,Kandy,2026-04-12,Under Treatment
+590,Cat,British Shorthair,5,Female,Healthy,Kurunegala,2026-01-15,Rescued
+591,Dog,Husky,9,Female,Critical,Kandy,2026-05-08,Released
+592,Dog,Labrador,1,Female,Healthy,Kurunegala,2026-05-20,Rescued
+593,Dog,Golden Retriever,14,Female,Sick,Kandy,2026-05-31,Pending
+594,Dog,Husky,13,Female,Sick,Negombo,2026-01-31,Released
+595,Dog,German Shepherd,11,Male,Critical,Ratnapura,2026-04-22,Pending
+596,Dog,Mixed Breed,2,Female,Critical,Batticaloa,2026-03-27,Pending
+597,Dog,Golden Retriever,3,Male,Sick,Negombo,2026-03-16,Rescued
+598,Cat,Siamese,14,Male,Sick,Kandy,2026-05-25,Pending
+599,Cat,Domestic Short Hair,5,Female,Injured,Matara,2026-04-04,Pending
+600,Cat,Mixed Breed,12,Female,Critical,Ratnapura,2026-04-29,Rescued
+601,Dog,Labrador,8,Female,Sick,Anuradhapura,2026-04-18,Rescued
+602,Dog,Beagle,1,Female,Healthy,Kurunegala,2026-03-17,Pending
+603,Dog,Husky,14,Female,Sick,Negombo,2026-05-11,Under Treatment
+604,Dog,Rottweiler,15,Male,Sick,Kurunegala,2026-03-08,Under Treatment
+605,Dog,Beagle,13,Male,Healthy,Jaffna,2026-06-13,Released
+606,Cat,British Shorthair,15,Male,Critical,Kurunegala,2026-02-10,Released
+607,Dog,Husky,10,Male,Injured,Jaffna,2026-02-17,Pending
+608,Cat,Domestic Short Hair,9,Male,Sick,Kandy,2026-03-08,Under Treatment
+609,Cat,Persian,15,Male,Sick,Galle,2026-04-02,Under Treatment
+610,Cat,Domestic Short Hair,13,Female,Sick,Matara,2026-06-27,Under Treatment
+611,Dog,Golden Retriever,2,Male,Healthy,Jaffna,2026-06-17,Pending
+612,Dog,Beagle,13,Female,Healthy,Jaffna,2026-05-04,Under Treatment
+613,Cat,Persian,11,Female,Injured,Anuradhapura,2026-01-01,Under Treatment
+614,Cat,Persian,5,Male,Sick,Kandy,2026-01-14,Under Treatment
+615,Dog,Rottweiler,11,Male,Sick,Colombo,2026-01-06,Under Treatment
+616,Dog,Beagle,3,Female,Sick,Jaffna,2026-05-28,Released
+617,Dog,Rottweiler,12,Male,Critical,Batticaloa,2026-01-21,Rescued
+618,Dog,Beagle,2,Male,Injured,Kurunegala,2026-03-19,Under Treatment
+619,Dog,Beagle,1,Female,Healthy,Matara,2026-02-08,Rescued
+620,Cat,Persian,13,Male,Sick,Kandy,2026-06-15,Rescued
+621,Cat,Persian,13,Female,Injured,Galle,2026-04-04,Rescued
+622,Dog,Mixed Breed,15,Male,Critical,Anuradhapura,2026-06-22,Under Treatment
+623,Cat,Persian,15,Female,Critical,Anuradhapura,2026-02-26,Under Treatment
+624,Dog,Labrador,1,Female,Sick,Galle,2026-02-26,Released
+625,Cat,Domestic Short Hair,5,Female,Sick,Anuradhapura,2026-03-09,Pending
+626,Dog,Husky,3,Female,Injured,Ratnapura,2026-02-07,Rescued
+627,Dog,Rottweiler,14,Male,Injured,Colombo,2026-04-24,Released
+628,Dog,German Shepherd,2,Female,Sick,Galle,2026-03-28,Pending
+629,Cat,Persian,4,Female,Injured,Kurunegala,2026-05-09,Pending
+630,Cat,British Shorthair,1,Male,Healthy,Colombo,2026-06-17,Released
+631,Dog,Rottweiler,5,Male,Healthy,Colombo,2026-03-15,Under Treatment
+632,Cat,British Shorthair,5,Female,Sick,Batticaloa,2026-02-12,Released
+633,Cat,Domestic Short Hair,12,Male,Sick,Jaffna,2026-05-29,Rescued
+634,Cat,Siamese,13,Male,Injured,Batticaloa,2026-02-17,Pending
+635,Cat,Persian,2,Male,Critical,Galle,2026-06-07,Pending
+636,Dog,Golden Retriever,5,Male,Injured,Kurunegala,2026-02-26,Under Treatment
+637,Dog,Beagle,5,Male,Injured,Ratnapura,2026-02-02,Under Treatment
+638,Cat,Domestic Short Hair,1,Male,Injured,Galle,2026-04-10,Rescued
+639,Dog,Husky,7,Male,Sick,Matara,2026-02-12,Rescued
+640,Cat,Persian,13,Male,Healthy,Kandy,2026-05-09,Under Treatment
+641,Cat,Domestic Short Hair,7,Female,Critical,Ratnapura,2026-03-15,Pending
+642,Dog,Mixed Breed,15,Female,Critical,Anuradhapura,2026-03-14,Pending
+643,Cat,Siamese,1,Female,Healthy,Ratnapura,2026-01-30,Released
+644,Cat,Mixed Breed,9,Male,Critical,Galle,2026-06-16,Rescued
+645,Dog,Mixed Breed,2,Male,Sick,Batticaloa,2026-06-19,Rescued
+646,Dog,Husky,14,Female,Injured,Kurunegala,2026-04-05,Released
+647,Dog,Husky,4,Male,Injured,Matara,2026-03-01,Released
+648,Cat,Domestic Short Hair,1,Female,Injured,Galle,2026-06-22,Pending
+649,Cat,Siamese,2,Female,Sick,Colombo,2026-06-19,Under Treatment
+650,Cat,Mixed Breed,12,Male,Sick,Kurunegala,2026-01-14,Pending
+651,Cat,Persian,5,Male,Healthy,Colombo,2026-01-06,Rescued
+652,Dog,Golden Retriever,9,Male,Sick,Kurunegala,2026-01-06,Under Treatment
+653,Dog,Labrador,13,Male,Injured,Kurunegala,2026-01-20,Under Treatment
+654,Cat,Persian,8,Female,Healthy,Ratnapura,2026-04-17,Released
+655,Cat,Siamese,7,Male,Injured,Ratnapura,2026-06-19,Released
+656,Cat,Domestic Short Hair,15,Male,Sick,Matara,2026-06-29,Rescued
+657,Cat,Mixed Breed,12,Male,Injured,Batticaloa,2026-02-28,Rescued
+658,Cat,Mixed Breed,5,Male,Sick,Negombo,2026-02-11,Under Treatment
+659,Dog,Golden Retriever,3,Female,Sick,Negombo,2026-02-20,Released
+660,Cat,British Shorthair,9,Female,Sick,Kandy,2026-02-17,Released
+661,Dog,Golden Retriever,2,Female,Sick,Ratnapura,2026-03-20,Under Treatment
+662,Dog,German Shepherd,14,Female,Critical,Batticaloa,2026-05-29,Pending
+663,Dog,Mixed Breed,9,Female,Healthy,Batticaloa,2026-05-09,Pending
+664,Dog,Husky,10,Male,Healthy,Kandy,2026-03-13,Pending
+665,Dog,German Shepherd,8,Male,Critical,Batticaloa,2026-06-25,Rescued
+666,Cat,Persian,1,Male,Critical,Kandy,2026-06-07,Rescued
+667,Dog,Labrador,10,Female,Critical,Ratnapura,2026-05-14,Pending
+668,Cat,Mixed Breed,12,Male,Healthy,Jaffna,2026-06-24,Rescued
+669,Cat,Siamese,13,Female,Critical,Kurunegala,2026-01-30,Under Treatment
+670,Cat,Mixed Breed,6,Male,Critical,Jaffna,2026-05-29,Under Treatment
+671,Dog,Husky,3,Male,Sick,Matara,2026-02-03,Pending
+672,Dog,Golden Retriever,7,Male,Injured,Jaffna,2026-04-30,Under Treatment
+673,Dog,Rottweiler,10,Male,Critical,Colombo,2026-05-23,Pending
+674,Cat,British Shorthair,10,Female,Healthy,Ratnapura,2026-06-15,Pending
+675,Dog,Labrador,11,Female,Critical,Colombo,2026-05-20,Released
+676,Cat,Domestic Short Hair,13,Male,Healthy,Negombo,2026-01-18,Rescued
+677,Cat,Mixed Breed,5,Female,Healthy,Colombo,2026-03-28,Rescued
+678,Cat,Siamese,7,Female,Injured,Galle,2026-06-22,Rescued
+679,Cat,Mixed Breed,3,Female,Sick,Galle,2026-06-22,Rescued
+680,Cat,Siamese,9,Female,Critical,Galle,2026-06-13,Pending
+681,Dog,Husky,13,Male,Healthy,Kurunegala,2026-05-29,Rescued
+682,Dog,Rottweiler,5,Female,Healthy,Jaffna,2026-01-24,Released
+683,Dog,Husky,12,Male,Critical,Jaffna,2026-01-01,Pending
+684,Dog,Labrador,8,Male,Injured,Colombo,2026-01-15,Under Treatment
+685,Cat,British Shorthair,8,Male,Critical,Anuradhapura,2026-03-14,Rescued
+686,Cat,Persian,14,Male,Critical,Ratnapura,2026-03-29,Pending
+687,Cat,British Shorthair,12,Male,Injured,Colombo,2026-04-09,Rescued
+688,Dog,Mixed Breed,11,Male,Sick,Anuradhapura,2026-05-30,Released
+689,Dog,German Shepherd,11,Female,Healthy,Matara,2026-04-22,Under Treatment
+690,Dog,German Shepherd,9,Female,Sick,Jaffna,2026-05-21,Released
+691,Cat,Domestic Short Hair,10,Female,Healthy,Colombo,2026-01-24,Released
+692,Dog,Rottweiler,3,Female,Injured,Jaffna,2026-06-26,Under Treatment
+693,Dog,Golden Retriever,13,Male,Sick,Batticaloa,2026-04-24,Rescued
+694,Dog,Labrador,10,Male,Sick,Batticaloa,2026-01-24,Pending
+695,Dog,Beagle,12,Female,Sick,Kandy,2026-01-15,Released
+696,Dog,Labrador,14,Female,Sick,Kandy,2026-04-16,Released
+697,Cat,Mixed Breed,13,Female,Healthy,Ratnapura,2026-05-08,Pending
+698,Cat,Persian,2,Female,Critical,Anuradhapura,2026-06-08,Under Treatment
+699,Dog,Husky,7,Female,Sick,Galle,2026-04-05,Released
+700,Cat,Siamese,4,Female,Sick,Kurunegala,2026-06-07,Under Treatment
+701,Cat,British Shorthair,4,Male,Critical,Jaffna,2026-02-04,Pending
+702,Cat,Siamese,14,Female,Sick,Kandy,2026-03-08,Rescued
+703,Cat,Persian,3,Male,Critical,Ratnapura,2026-01-03,Released
+704,Dog,Labrador,8,Female,Injured,Ratnapura,2026-01-03,Pending
+705,Cat,Domestic Short Hair,2,Male,Sick,Jaffna,2026-06-04,Released
+706,Cat,Persian,6,Male,Healthy,Jaffna,2026-05-21,Under Treatment
+707,Dog,Labrador,11,Male,Injured,Anuradhapura,2026-06-17,Rescued
+708,Dog,Labrador,11,Female,Sick,Batticaloa,2026-05-05,Under Treatment
+709,Dog,German Shepherd,11,Female,Injured,Kurunegala,2026-03-19,Rescued
+710,Dog,Husky,3,Female,Injured,Kandy,2026-01-21,Rescued
+711,Dog,Husky,1,Male,Healthy,Ratnapura,2026-01-14,Under Treatment
+712,Cat,Siamese,7,Female,Injured,Ratnapura,2026-04-28,Pending
+713,Cat,Domestic Short Hair,15,Male,Sick,Galle,2026-03-09,Under Treatment
+714,Dog,Mixed Breed,11,Female,Healthy,Negombo,2026-03-01,Under Treatment
+715,Dog,Rottweiler,14,Male,Critical,Colombo,2026-06-19,Pending
+716,Dog,Labrador,12,Male,Injured,Kurunegala,2026-05-20,Pending
+717,Cat,Domestic Short Hair,6,Male,Healthy,Kurunegala,2026-03-20,Pending
+718,Dog,Golden Retriever,9,Male,Injured,Galle,2026-04-30,Released
+719,Cat,Siamese,8,Male,Healthy,Matara,2026-01-25,Rescued
+720,Cat,British Shorthair,15,Female,Sick,Ratnapura,2026-04-21,Rescued
+721,Dog,Golden Retriever,15,Female,Critical,Colombo,2026-03-26,Rescued
+722,Cat,Siamese,15,Male,Healthy,Batticaloa,2026-05-28,Rescued
+723,Cat,Domestic Short Hair,2,Male,Healthy,Kurunegala,2026-03-20,Pending
+724,Dog,Golden Retriever,7,Male,Critical,Kandy,2026-04-10,Pending
+725,Cat,Siamese,9,Male,Injured,Kurunegala,2026-02-23,Under Treatment
+726,Cat,Persian,3,Female,Critical,Jaffna,2026-01-25,Under Treatment
+727,Cat,British Shorthair,12,Female,Sick,Kandy,2026-02-11,Under Treatment
+728,Dog,Mixed Breed,2,Male,Sick,Negombo,2026-01-18,Released
+729,Dog,Golden Retriever,12,Female,Injured,Matara,2026-06-23,Released
+730,Dog,Labrador,6,Female,Sick,Negombo,2026-02-27,Pending
+731,Dog,German Shepherd,12,Female,Critical,Batticaloa,2026-06-27,Released
+732,Cat,Mixed Breed,13,Male,Sick,Negombo,2026-01-05,Under Treatment
+733,Dog,Labrador,6,Male,Sick,Kandy,2026-03-18,Released
+734,Cat,Mixed Breed,14,Female,Healthy,Ratnapura,2026-06-02,Pending
+735,Cat,Siamese,9,Female,Sick,Batticaloa,2026-03-17,Under Treatment
+736,Cat,British Shorthair,4,Female,Healthy,Kandy,2026-06-12,Pending
+737,Cat,Mixed Breed,6,Male,Injured,Negombo,2026-01-15,Pending
+738,Cat,Mixed Breed,13,Male,Sick,Anuradhapura,2026-05-30,Released
+739,Cat,Siamese,9,Male,Critical,Matara,2026-05-02,Pending
+740,Dog,Rottweiler,15,Male,Healthy,Galle,2026-02-06,Under Treatment
+741,Dog,Golden Retriever,1,Male,Sick,Matara,2026-04-09,Rescued
+742,Cat,Domestic Short Hair,10,Female,Injured,Anuradhapura,2026-06-28,Released
+743,Cat,Siamese,1,Female,Sick,Kandy,2026-02-25,Released
+744,Cat,Mixed Breed,2,Female,Sick,Batticaloa,2026-05-03,Released
+745,Cat,British Shorthair,14,Male,Critical,Ratnapura,2026-04-04,Under Treatment
+746,Dog,Beagle,2,Female,Sick,Ratnapura,2026-05-03,Released
+747,Cat,Mixed Breed,5,Male,Healthy,Galle,2026-01-10,Rescued
+748,Dog,Mixed Breed,13,Male,Sick,Jaffna,2026-06-25,Released
+749,Cat,British Shorthair,7,Female,Injured,Batticaloa,2026-02-12,Rescued
+750,Dog,Beagle,1,Female,Injured,Anuradhapura,2026-04-05,Under Treatment
+751,Dog,German Shepherd,10,Female,Healthy,Jaffna,2026-05-20,Pending
+752,Dog,Mixed Breed,5,Female,Critical,Galle,2026-01-11,Under Treatment
+753,Cat,Mixed Breed,9,Female,Critical,Negombo,2026-06-11,Under Treatment
+754,Cat,Siamese,7,Female,Sick,Galle,2026-03-02,Rescued
+755,Cat,Persian,1,Female,Injured,Anuradhapura,2026-01-29,Under Treatment
+756,Cat,Mixed Breed,7,Male,Sick,Matara,2026-01-23,Released
+757,Dog,German Shepherd,13,Female,Sick,Negombo,2026-05-18,Released
+758,Dog,Rottweiler,3,Female,Critical,Batticaloa,2026-01-17,Rescued
+759,Dog,Golden Retriever,13,Male,Sick,Kurunegala,2026-04-18,Released
+760,Cat,Domestic Short Hair,3,Male,Injured,Kandy,2026-01-16,Rescued
+761,Dog,Husky,11,Female,Sick,Galle,2026-06-09,Under Treatment
+762,Cat,Mixed Breed,10,Male,Healthy,Ratnapura,2026-04-09,Under Treatment
+763,Dog,Labrador,8,Female,Sick,Ratnapura,2026-03-02,Released
+764,Cat,British Shorthair,14,Male,Injured,Kandy,2026-03-27,Under Treatment
+765,Dog,Labrador,2,Female,Healthy,Galle,2026-06-21,Under Treatment
+766,Cat,Siamese,5,Male,Sick,Kurunegala,2026-06-03,Pending
+767,Dog,Beagle,14,Male,Sick,Batticaloa,2026-06-08,Pending
+768,Cat,Mixed Breed,4,Male,Healthy,Jaffna,2026-01-29,Released
+769,Dog,Husky,6,Female,Injured,Kurunegala,2026-01-30,Pending
+770,Cat,Persian,9,Male,Injured,Colombo,2026-02-09,Pending
+771,Dog,Mixed Breed,15,Male,Critical,Jaffna,2026-05-12,Released
+772,Cat,Persian,5,Male,Healthy,Matara,2026-05-19,Pending
+773,Dog,Golden Retriever,8,Male,Sick,Ratnapura,2026-04-10,Under Treatment
+774,Dog,Rottweiler,10,Female,Sick,Galle,2026-05-20,Rescued
+775,Dog,Mixed Breed,3,Female,Critical,Ratnapura,2026-03-14,Released
+776,Cat,Mixed Breed,10,Female,Healthy,Negombo,2026-06-01,Rescued
+777,Cat,Persian,10,Male,Critical,Jaffna,2026-01-27,Pending
+778,Cat,Domestic Short Hair,7,Male,Critical,Colombo,2026-02-19,Released
+779,Cat,British Shorthair,11,Female,Injured,Colombo,2026-03-13,Under Treatment
+780,Cat,Domestic Short Hair,8,Female,Injured,Matara,2026-03-29,Under Treatment
+781,Dog,Labrador,11,Male,Sick,Kurunegala,2026-05-04,Rescued
+782,Dog,German Shepherd,15,Male,Injured,Negombo,2026-06-30,Under Treatment
+783,Dog,German Shepherd,14,Female,Critical,Jaffna,2026-02-27,Released
+784,Cat,Domestic Short Hair,10,Male,Healthy,Ratnapura,2026-03-31,Released
+785,Cat,Persian,3,Male,Critical,Anuradhapura,2026-04-12,Under Treatment
+786,Cat,Domestic Short Hair,2,Male,Healthy,Negombo,2026-04-18,Pending
+787,Dog,Rottweiler,4,Female,Critical,Ratnapura,2026-05-25,Rescued
+788,Dog,Beagle,6,Female,Critical,Galle,2026-04-20,Pending
+789,Dog,Rottweiler,11,Female,Critical,Negombo,2026-05-03,Released
+790,Cat,Domestic Short Hair,3,Female,Injured,Negombo,2026-05-15,Released
+791,Cat,Domestic Short Hair,7,Male,Injured,Negombo,2026-03-16,Under Treatment
+792,Dog,Rottweiler,11,Female,Healthy,Galle,2026-01-06,Rescued
+793,Dog,Rottweiler,3,Male,Critical,Colombo,2026-03-01,Released
+794,Dog,Golden Retriever,2,Male,Sick,Batticaloa,2026-02-13,Rescued
+795,Dog,Beagle,6,Male,Critical,Batticaloa,2026-04-13,Under Treatment
+796,Cat,British Shorthair,3,Female,Critical,Kurunegala,2026-06-25,Released
+797,Dog,Rottweiler,13,Male,Critical,Colombo,2026-01-16,Rescued
+798,Dog,Beagle,5,Female,Injured,Colombo,2026-06-04,Pending
+799,Dog,Rottweiler,9,Male,Healthy,Jaffna,2026-02-23,Rescued
+800,Cat,Mixed Breed,15,Female,Healthy,Ratnapura,2026-04-01,Under Treatment
+801,Cat,Persian,2,Female,Healthy,Galle,2026-05-25,Rescued
+802,Dog,German Shepherd,9,Female,Injured,Jaffna,2026-06-06,Rescued
+803,Cat,British Shorthair,1,Female,Healthy,Kandy,2026-05-09,Rescued
+804,Cat,Persian,14,Male,Critical,Anuradhapura,2026-02-21,Under Treatment
+805,Dog,Golden Retriever,10,Male,Sick,Negombo,2026-06-06,Pending
+806,Dog,Labrador,1,Female,Sick,Colombo,2026-05-11,Rescued
+807,Cat,Domestic Short Hair,11,Female,Injured,Kandy,2026-03-10,Pending
+808,Cat,British Shorthair,10,Male,Injured,Colombo,2026-03-17,Rescued
+809,Dog,Mixed Breed,11,Female,Sick,Ratnapura,2026-05-29,Pending
+810,Cat,Siamese,3,Male,Critical,Anuradhapura,2026-05-13,Under Treatment
+811,Dog,Rottweiler,5,Male,Critical,Colombo,2026-03-07,Under Treatment
+812,Dog,Labrador,4,Female,Critical,Kandy,2026-02-20,Pending
+813,Cat,Mixed Breed,10,Male,Healthy,Jaffna,2026-05-28,Under Treatment
+814,Cat,Persian,13,Male,Healthy,Galle,2026-02-21,Under Treatment
+815,Cat,Domestic Short Hair,12,Female,Injured,Matara,2026-06-13,Pending
+816,Dog,Rottweiler,6,Female,Sick,Negombo,2026-01-24,Rescued
+817,Dog,Golden Retriever,12,Female,Sick,Negombo,2026-02-04,Under Treatment
+818,Cat,Mixed Breed,2,Male,Sick,Negombo,2026-05-19,Released
+819,Cat,British Shorthair,5,Female,Healthy,Galle,2026-05-12,Rescued
+820,Cat,Mixed Breed,11,Female,Sick,Jaffna,2026-05-13,Released
+821,Cat,British Shorthair,13,Male,Critical,Anuradhapura,2026-06-03,Rescued
+822,Cat,Siamese,13,Male,Injured,Jaffna,2026-06-17,Under Treatment
+823,Cat,Domestic Short Hair,5,Male,Sick,Kurunegala,2026-04-22,Pending
+824,Cat,Mixed Breed,1,Female,Sick,Kandy,2026-01-18,Under Treatment
+825,Dog,Labrador,14,Male,Healthy,Kandy,2026-01-09,Rescued
+826,Cat,Siamese,12,Male,Healthy,Batticaloa,2026-03-15,Under Treatment
+827,Dog,Husky,15,Female,Sick,Kurunegala,2026-06-24,Released
+828,Cat,Persian,14,Male,Sick,Anuradhapura,2026-04-04,Under Treatment
+829,Cat,Siamese,8,Male,Healthy,Kurunegala,2026-05-26,Rescued
+830,Dog,Mixed Breed,5,Female,Critical,Kurunegala,2026-03-16,Pending
+831,Cat,Mixed Breed,7,Male,Healthy,Galle,2026-04-06,Pending
+832,Cat,British Shorthair,10,Male,Critical,Kandy,2026-04-18,Under Treatment
+833,Dog,Mixed Breed,3,Male,Critical,Matara,2026-05-19,Under Treatment
+834,Dog,Rottweiler,11,Female,Critical,Matara,2026-01-27,Rescued
+835,Cat,Domestic Short Hair,7,Male,Critical,Kandy,2026-06-11,Released
+836,Dog,Labrador,8,Male,Sick,Ratnapura,2026-06-16,Under Treatment
+837,Cat,Siamese,11,Female,Injured,Kandy,2026-03-28,Pending
+838,Dog,Golden Retriever,5,Male,Injured,Ratnapura,2026-03-27,Under Treatment
+839,Cat,British Shorthair,12,Male,Injured,Batticaloa,2026-01-03,Pending
+840,Cat,Persian,15,Female,Critical,Matara,2026-02-04,Pending
+841,Dog,Rottweiler,11,Male,Sick,Ratnapura,2026-01-29,Released
+842,Dog,Rottweiler,4,Male,Injured,Kandy,2026-01-18,Pending
+843,Cat,British Shorthair,7,Female,Sick,Ratnapura,2026-04-03,Rescued
+844,Cat,British Shorthair,9,Female,Critical,Colombo,2026-02-16,Rescued
+845,Dog,Rottweiler,3,Male,Critical,Colombo,2026-06-01,Pending
+846,Dog,Mixed Breed,5,Male,Sick,Jaffna,2026-05-31,Released
+847,Cat,British Shorthair,1,Female,Sick,Ratnapura,2026-02-10,Released
+848,Dog,German Shepherd,12,Male,Injured,Anuradhapura,2026-02-17,Released
+849,Dog,German Shepherd,1,Female,Healthy,Colombo,2026-01-14,Pending
+850,Dog,Mixed Breed,9,Male,Injured,Matara,2026-05-05,Released
+851,Cat,British Shorthair,8,Female,Healthy,Kurunegala,2026-04-19,Released
+852,Dog,Mixed Breed,10,Male,Critical,Jaffna,2026-02-08,Pending
+853,Cat,British Shorthair,7,Male,Sick,Matara,2026-06-06,Rescued
+854,Cat,Mixed Breed,1,Male,Critical,Batticaloa,2026-05-28,Under Treatment
+855,Dog,Beagle,13,Female,Healthy,Galle,2026-03-15,Pending
+856,Dog,Mixed Breed,10,Female,Healthy,Negombo,2026-06-23,Under Treatment
+857,Cat,Siamese,1,Male,Critical,Jaffna,2026-05-13,Released
+858,Dog,Rottweiler,11,Male,Injured,Colombo,2026-02-24,Rescued
+859,Dog,Beagle,13,Female,Critical,Kandy,2026-06-14,Rescued
+860,Cat,Domestic Short Hair,1,Male,Healthy,Matara,2026-01-15,Rescued
+861,Dog,Labrador,8,Male,Injured,Galle,2026-04-28,Released
+862,Cat,Persian,3,Male,Healthy,Anuradhapura,2026-02-08,Released
+863,Dog,German Shepherd,15,Male,Sick,Kandy,2026-05-19,Under Treatment
+864,Cat,Siamese,12,Female,Critical,Colombo,2026-03-18,Released
+865,Cat,Persian,4,Female,Sick,Jaffna,2026-01-18,Released
+866,Cat,Domestic Short Hair,6,Female,Sick,Galle,2026-05-07,Rescued
+867,Cat,Domestic Short Hair,2,Male,Critical,Kandy,2026-01-31,Pending
+868,Dog,Husky,4,Female,Healthy,Kandy,2026-02-27,Under Treatment
+869,Dog,Golden Retriever,11,Male,Healthy,Ratnapura,2026-05-14,Under Treatment
+870,Cat,British Shorthair,10,Female,Sick,Colombo,2026-01-30,Released
+871,Dog,Beagle,15,Male,Healthy,Kurunegala,2026-03-26,Released
+872,Cat,Domestic Short Hair,2,Female,Healthy,Kandy,2026-01-25,Under Treatment
+873,Dog,Golden Retriever,7,Male,Injured,Jaffna,2026-04-17,Rescued
+874,Dog,Labrador,12,Female,Healthy,Batticaloa,2026-06-25,Pending
+875,Cat,Siamese,1,Male,Injured,Anuradhapura,2026-03-09,Rescued
+876,Cat,Persian,10,Female,Sick,Colombo,2026-06-08,Released
+877,Cat,Domestic Short Hair,1,Male,Healthy,Kandy,2026-02-09,Pending
+878,Cat,Persian,1,Male,Injured,Kurunegala,2026-03-03,Released
+879,Cat,Persian,9,Male,Critical,Matara,2026-04-15,Rescued
+880,Dog,Mixed Breed,8,Female,Critical,Colombo,2026-02-11,Released
+881,Cat,Persian,1,Male,Critical,Galle,2026-04-20,Rescued
+882,Cat,Mixed Breed,8,Female,Sick,Batticaloa,2026-03-30,Under Treatment
+883,Cat,Siamese,5,Female,Critical,Ratnapura,2026-01-05,Rescued
+884,Cat,Domestic Short Hair,9,Female,Sick,Batticaloa,2026-05-05,Pending
+885,Dog,Golden Retriever,6,Female,Sick,Jaffna,2026-04-06,Under Treatment
+886,Cat,Domestic Short Hair,13,Male,Critical,Kurunegala,2026-04-16,Rescued
+887,Dog,Beagle,2,Female,Healthy,Galle,2026-02-04,Released
+888,Cat,British Shorthair,5,Female,Sick,Kurunegala,2026-06-12,Released
+889,Cat,Siamese,2,Female,Injured,Colombo,2026-06-12,Pending
+890,Cat,Domestic Short Hair,13,Male,Sick,Negombo,2026-04-18,Released
+891,Cat,Domestic Short Hair,2,Male,Sick,Jaffna,2026-04-29,Under Treatment
+892,Dog,Labrador,9,Male,Injured,Kurunegala,2026-05-17,Under Treatment
+893,Dog,Husky,5,Male,Injured,Negombo,2026-02-24,Pending
+894,Cat,Mixed Breed,3,Female,Critical,Kurunegala,2026-05-04,Rescued
+895,Cat,Persian,9,Female,Healthy,Colombo,2026-03-13,Under Treatment
+896,Cat,Domestic Short Hair,13,Female,Injured,Negombo,2026-01-24,Under Treatment
+897,Dog,Labrador,10,Female,Critical,Jaffna,2026-06-28,Pending
+898,Cat,Mixed Breed,9,Male,Injured,Matara,2026-05-21,Rescued
+899,Dog,Golden Retriever,15,Male,Critical,Colombo,2026-02-12,Rescued
+900,Cat,Siamese,6,Female,Healthy,Kurunegala,2026-06-12,Pending
+901,Dog,Beagle,13,Female,Healthy,Galle,2026-05-22,Pending
+902,Cat,British Shorthair,13,Female,Critical,Jaffna,2026-03-19,Released
+903,Cat,Persian,10,Female,Injured,Kandy,2026-05-08,Under Treatment
+904,Dog,Golden Retriever,10,Male,Critical,Negombo,2026-06-29,Rescued
+905,Dog,German Shepherd,13,Female,Sick,Jaffna,2026-05-29,Pending
+906,Dog,Rottweiler,8,Female,Critical,Kandy,2026-03-25,Pending
+907,Cat,Siamese,7,Female,Critical,Kandy,2026-02-05,Under Treatment
+908,Cat,Siamese,5,Female,Injured,Jaffna,2026-05-08,Rescued
+909,Cat,Domestic Short Hair,10,Female,Healthy,Galle,2026-06-25,Released
+910,Dog,Labrador,12,Male,Sick,Anuradhapura,2026-04-08,Rescued
+911,Cat,Mixed Breed,12,Male,Sick,Jaffna,2026-02-05,Under Treatment
+912,Dog,Rottweiler,4,Male,Injured,Kandy,2026-02-02,Under Treatment
+913,Cat,Persian,3,Female,Critical,Galle,2026-02-03,Pending
+914,Dog,Rottweiler,4,Male,Sick,Batticaloa,2026-04-25,Rescued
+915,Cat,Mixed Breed,14,Male,Sick,Galle,2026-04-18,Pending
+916,Cat,British Shorthair,7,Female,Critical,Anuradhapura,2026-03-01,Rescued
+917,Dog,Beagle,14,Female,Critical,Ratnapura,2026-05-07,Under Treatment
+918,Dog,Rottweiler,14,Male,Healthy,Galle,2026-05-20,Pending
+919,Cat,Siamese,12,Female,Sick,Galle,2026-05-19,Released
+920,Dog,Beagle,6,Male,Critical,Kurunegala,2026-05-06,Rescued
+921,Dog,Beagle,8,Female,Injured,Batticaloa,2026-02-08,Rescued
+922,Dog,Beagle,15,Male,Healthy,Jaffna,2026-06-24,Pending
+923,Dog,Mixed Breed,10,Female,Critical,Ratnapura,2026-05-03,Pending
+924,Cat,Siamese,13,Female,Sick,Colombo,2026-01-30,Pending
+925,Cat,Persian,2,Female,Healthy,Ratnapura,2026-01-30,Released
+926,Dog,Husky,6,Male,Sick,Kandy,2026-06-19,Pending
+927,Cat,British Shorthair,14,Male,Injured,Colombo,2026-03-29,Released
+928,Dog,Golden Retriever,11,Male,Healthy,Ratnapura,2026-06-12,Under Treatment
+929,Cat,Persian,14,Male,Sick,Matara,2026-01-27,Pending
+930,Cat,Persian,10,Male,Critical,Galle,2026-01-11,Pending
+931,Dog,Husky,13,Female,Critical,Kandy,2026-04-13,Rescued
+932,Cat,Siamese,8,Male,Sick,Kurunegala,2026-05-31,Released
+933,Cat,Domestic Short Hair,1,Female,Injured,Batticaloa,2026-01-26,Released
+934,Dog,German Shepherd,13,Male,Injured,Ratnapura,2026-04-27,Under Treatment
+935,Dog,Husky,3,Male,Critical,Matara,2026-05-14,Released
+936,Cat,Mixed Breed,2,Male,Healthy,Negombo,2026-01-01,Under Treatment
+937,Dog,Rottweiler,6,Male,Healthy,Batticaloa,2026-02-08,Under Treatment
+938,Dog,German Shepherd,3,Female,Sick,Negombo,2026-02-12,Pending
+939,Dog,Beagle,13,Female,Sick,Jaffna,2026-01-21,Released
+940,Dog,Beagle,8,Male,Injured,Ratnapura,2026-06-21,Under Treatment
+941,Cat,Mixed Breed,5,Female,Injured,Matara,2026-02-06,Released
+942,Cat,British Shorthair,9,Male,Injured,Colombo,2026-01-24,Pending
+943,Cat,British Shorthair,15,Male,Sick,Negombo,2026-02-04,Released
+944,Dog,Husky,8,Male,Critical,Kandy,2026-03-29,Rescued
+945,Cat,Mixed Breed,2,Male,Injured,Anuradhapura,2026-05-07,Released
+946,Dog,Rottweiler,6,Male,Critical,Matara,2026-01-06,Under Treatment
+947,Cat,Siamese,6,Male,Sick,Matara,2026-04-02,Pending
+948,Dog,Rottweiler,10,Female,Critical,Kurunegala,2026-01-16,Rescued
+949,Cat,Mixed Breed,10,Male,Healthy,Jaffna,2026-06-11,Under Treatment
+950,Cat,Siamese,1,Male,Sick,Anuradhapura,2026-03-30,Pending
+951,Cat,Persian,7,Male,Injured,Jaffna,2026-01-21,Rescued
+952,Dog,Mixed Breed,15,Male,Injured,Colombo,2026-01-02,Rescued
+953,Dog,Beagle,9,Female,Sick,Batticaloa,2026-04-29,Released
+954,Dog,Labrador,4,Male,Critical,Kurunegala,2026-06-13,Rescued
+955,Dog,German Shepherd,12,Female,Healthy,Colombo,2026-04-16,Rescued
+956,Cat,Persian,2,Male,Healthy,Matara,2026-04-23,Rescued
+957,Dog,Husky,6,Male,Sick,Kurunegala,2026-01-11,Pending
+958,Dog,Golden Retriever,12,Male,Injured,Matara,2026-01-18,Released
+959,Cat,Mixed Breed,15,Female,Healthy,Ratnapura,2026-01-21,Pending
+960,Cat,Mixed Breed,8,Female,Injured,Ratnapura,2026-04-17,Under Treatment
+961,Dog,Golden Retriever,7,Female,Sick,Kurunegala,2026-06-25,Released
+962,Cat,Domestic Short Hair,10,Male,Injured,Ratnapura,2026-05-06,Released
+963,Dog,German Shepherd,12,Female,Healthy,Anuradhapura,2026-03-22,Pending
+964,Dog,Golden Retriever,10,Female,Critical,Colombo,2026-03-18,Under Treatment
+965,Cat,Siamese,9,Female,Critical,Negombo,2026-04-25,Rescued
+966,Cat,Persian,1,Female,Healthy,Galle,2026-05-04,Released
+967,Dog,Labrador,7,Male,Injured,Matara,2026-01-09,Rescued
+968,Cat,Persian,13,Female,Healthy,Kurunegala,2026-06-03,Released
+969,Dog,Golden Retriever,12,Male,Injured,Kandy,2026-05-15,Released
+970,Dog,Husky,1,Male,Healthy,Matara,2026-01-26,Rescued
+971,Cat,Persian,8,Male,Critical,Ratnapura,2026-06-08,Under Treatment
+972,Cat,Mixed Breed,14,Female,Injured,Colombo,2026-04-27,Rescued
+973,Cat,Siamese,13,Female,Critical,Negombo,2026-05-18,Rescued
+974,Dog,Husky,12,Male,Sick,Batticaloa,2026-05-26,Pending
+975,Cat,British Shorthair,12,Male,Critical,Matara,2026-06-07,Released
+976,Cat,British Shorthair,15,Female,Sick,Jaffna,2026-03-24,Released
+977,Cat,Siamese,8,Male,Sick,Ratnapura,2026-02-21,Pending
+978,Cat,British Shorthair,5,Male,Sick,Negombo,2026-06-14,Released
+979,Cat,British Shorthair,13,Female,Injured,Kandy,2026-01-07,Under Treatment
+980,Dog,German Shepherd,12,Male,Healthy,Kurunegala,2026-04-29,Pending
+981,Dog,German Shepherd,5,Male,Sick,Colombo,2026-03-13,Pending
+982,Cat,Siamese,11,Male,Injured,Galle,2026-05-10,Released
+983,Cat,British Shorthair,2,Male,Injured,Negombo,2026-06-14,Released
+984,Dog,Rottweiler,15,Male,Healthy,Kandy,2026-05-03,Rescued
+985,Dog,Husky,12,Female,Injured,Matara,2026-05-05,Rescued
+986,Cat,British Shorthair,9,Male,Injured,Jaffna,2026-05-12,Rescued
+987,Dog,Golden Retriever,4,Female,Sick,Kandy,2026-03-04,Under Treatment
+988,Dog,Beagle,8,Female,Critical,Colombo,2026-03-28,Under Treatment
+989,Dog,Husky,8,Female,Critical,Batticaloa,2026-03-13,Pending
+990,Cat,Mixed Breed,1,Female,Sick,Anuradhapura,2026-04-11,Released
+991,Cat,Mixed Breed,4,Female,Injured,Kandy,2026-02-26,Pending
+992,Dog,German Shepherd,9,Male,Sick,Ratnapura,2026-04-27,Released
+993,Cat,British Shorthair,2,Female,Sick,Colombo,2026-01-21,Released
+994,Cat,Mixed Breed,14,Female,Healthy,Negombo,2026-01-14,Under Treatment
+995,Dog,Rottweiler,14,Female,Injured,Matara,2026-01-25,Under Treatment
+996,Dog,Beagle,5,Female,Sick,Kurunegala,2026-01-04,Released
+997,Cat,Persian,6,Male,Injured,Galle,2026-03-25,Rescued
+998,Dog,Rottweiler,5,Male,Injured,Jaffna,2026-06-20,Released
+999,Dog,Beagle,1,Male,Healthy,Negombo,2026-06-08,Rescued
+1000,Cat,Siamese,10,Female,Critical,Negombo,2026-03-17,Released
