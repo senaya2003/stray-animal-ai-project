@@ -1,0 +1,39 @@
+-- View all predictions
+SELECT *
+FROM predictions;
+
+
+-- Count total predictions
+SELECT COUNT(*) AS total_predictions
+FROM predictions;
+
+
+-- Predictions by animal type
+SELECT
+    animal_type,
+    COUNT(*) AS total
+FROM predictions
+GROUP BY animal_type;
+
+
+-- Predictions by health status
+SELECT
+    predicted_health_status,
+    COUNT(*) AS total
+FROM predictions
+GROUP BY predicted_health_status;
+
+
+-- Predictions by location
+SELECT
+    location,
+    COUNT(*) AS total
+FROM predictions
+GROUP BY location;
+
+
+-- Recent predictions
+SELECT *
+FROM predictions
+ORDER BY created_at DESC
+LIMIT 10;

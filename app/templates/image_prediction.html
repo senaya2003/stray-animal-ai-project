@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Animal Image Identification</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+        }
+
+        .container {
+            width: 600px;
+            max-width: 90%;
+            margin: 60px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .upload-box {
+            border: 2px dashed #aaa;
+            padding: 40px;
+            text-align: center;
+            margin-top: 25px;
+            border-radius: 10px;
+        }
+
+        input[type="file"] {
+            margin: 20px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f1f1f1;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 300px;
+            max-height: 300px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🐾 Animal Image Identification</h1>
+
+    <p style="text-align:center;">
+        Upload an animal image to predict its health status.
+    </p>
+
+    <form
+        action="/image-predict"
+        method="POST"
+        enctype="multipart/form-data"
+    >
+
+        <div class="upload-box">
+
+            <input
+                type="file"
+                name="animal_image"
+                accept="image/*"
+                required
+            >
+
+            <br>
+
+            <button type="submit">
+                🔍 Identify Animal Health
+            </button>
+
+        </div>
+
+    </form>
+
+
+    {% if prediction %}
+
+    <div class="result">
+
+        <h2>Prediction Result</h2>
+
+        <h3>
+            Predicted Health Status:
+        </h3>
+
+        <h2>
+            {{ prediction }}
+        </h2>
+
+        {% if image_path %}
+
+        <img
+            src="{{ image_path }}"
+            alt="Uploaded animal"
+        >
+
+        {% endif %}
+
+        <p>
+            The prediction was generated using the
+            trained image classification model.
+        </p>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+</body>
+
+</html>
